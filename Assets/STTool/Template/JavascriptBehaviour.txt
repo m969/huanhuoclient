@@ -1,0 +1,33 @@
+/*************************************************************************
+ *  Copyright (C), #CopyrightTime#, Mogoson tech. Co., Ltd.
+ *  FileName: #SCRIPTNAME#.cs
+ *  Author: Mogoson   Version: 1.0   Date: #CreateTime#
+ *  Version Description:
+ *    Internal develop version,mainly to achieve its function.
+ *  File Description:
+ *    Ignore.
+ *  Function List:
+ *    <ID>     <name>             <description>
+ *     1.
+ *  History:
+ *    <ID>    <author>      <time>      <version>      <description>
+ *     1.     Mogoson     #CreateTime#       1.0        Build this file.
+ *************************************************************************/
+
+#pragma strict
+
+//@script RequireComponent()
+//@script AddComponentMenu ("")
+//
+//@Tooltip("")
+//@SerializeField
+//
+//function Start () 
+//{
+//
+//}
+//
+//function Update () 
+//{
+//
+//}

@@ -1,0 +1,49 @@
+﻿/*************************************************************************
+ *  Copyright (C), #CopyrightTime#, Mogoson tech. Co., Ltd.
+ *  FileName: #SCRIPTNAME#.cs
+ *  Author: Mogoson   Version: 1.0   Date: #CreateTime#
+ *  Version Description:
+ *    Internal develop version,mainly to achieve its function.
+ *  File Description:
+ *    Ignore.
+ *  Class List:
+ *    <ID>           <name>             <description>
+ *     1.         #SCRIPTNAME#             Ignore.
+ *  Function List:
+ *    <class ID>     <name>             <description>
+ *     1.
+ *  History:
+ *    <ID>    <author>      <time>      <version>      <description>
+ *     1.     Mogoson     #CreateTime#       1.0        Build this file.
+ *************************************************************************/
+
+namespace Developer.Script
+{
+    using UnityEngine;
+    using System.Collections;
+
+    //[RequireComponent(typeof())]
+    //[AddComponentMenu("")]
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+        #region Property and Field
+        //  [Tooltip("")]
+        //  [SerializeField]
+        #endregion
+
+        #region Private Method
+        //  void Start () 
+        //  {
+        //
+        //  }
+
+        //  void Update()
+        //  {
+        //
+        //  }
+        #endregion
+
+        #region Public Method
+        #endregion
+    }//class_end
+}//namespace_end

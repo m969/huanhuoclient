@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameDescription>
+
+    <Version>1.2</Version>
+
+    <UpdateDescription>更新描述</UpdateDescription>
+    
+    <NativeProgramVersion>1.0</NativeProgramVersion>
+
+    <AssetVersion>1.3</AssetVersion>
+
+    <SceneAssetPath>
+        game_Data/StreamingAssets/SceneAssets/Windows
+    </SceneAssetPath>
+
+    <SceneDescriptionPath>
+        game_Data/StreamingAssets/SceneDescription
+    </SceneDescriptionPath>
+
+    <Assets>
+
+        <AvatarAsset>
+            <Ver>1.2</Ver>
+            <Path>game_Data/StreamingAssets/Prefabs/Windows/player_bundle</Path>
+        </AvatarAsset>
+
+        <MonsterAsset>
+            <Ver>1.0</Ver>
+            <Path>game_Data/StreamingAssets/Prefabs/Windows/monster_bundle</Path>
+        </MonsterAsset>
+
+        <NpcAsset>
+            <Ver>1.0</Ver>
+            <Path>game_Data/StreamingAssets/Prefabs/Windows/npc_bundle</Path>
+        </NpcAsset>
+
+        <TriggerAsset>
+            <Ver>1.0</Ver>
+            <Path>game_Data/StreamingAssets/Prefabs/Windows/trigger_bundle</Path>
+        </TriggerAsset>
+
+        <MuLingCunSpace>
+            <Ver>1.0</Ver>
+            <Path>game_Data/StreamingAssets/SceneAssets/Windows/mulingcunspace</Path>
+        </MuLingCunSpace>
+
+        <YunLingZongSpace>
+            <Ver>1.0</Ver>
+            <Path>game_Data/StreamingAssets/SceneAssets/Windows/yunlingzongspace</Path>
+        </YunLingZongSpace>
+
+    </Assets>
+
+</GameDescription>

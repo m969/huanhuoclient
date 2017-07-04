@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: e777d3169c8ceeb42bb093c29c1aa2ae
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone014
+    100002: Bone017
+    100004: Bone018
+    100006: Bone019
+    100008: Bone020
+    100010: Bone021
+    100012: Bone022
+    100014: Bone023
+    100016: Bone024
+    100018: Bone025
+    100020: Bone026
+    100022: Bone027
+    100024: Dummy001
+    100026: GlacialWall014
+    100028: GlacialWall017
+    100030: GlacialWall018
+    100032: GlacialWall019
+    100034: GlacialWall020
+    100036: GlacialWall021
+    100038: GlacialWall022
+    100040: GlacialWall023
+    100042: GlacialWall024
+    100044: GlacialWall025
+    100046: GlacialWall026
+    100048: GlacialWall027
+    100050: //RootNode
+    400000: Bone014
+    400002: Bone017
+    400004: Bone018
+    400006: Bone019
+    400008: Bone020
+    400010: Bone021
+    400012: Bone022
+    400014: Bone023
+    400016: Bone024
+    400018: Bone025
+    400020: Bone026
+    400022: Bone027
+    400024: Dummy001
+    400026: GlacialWall014
+    400028: GlacialWall017
+    400030: GlacialWall018
+    400032: GlacialWall019
+    400034: GlacialWall020
+    400036: GlacialWall021
+    400038: GlacialWall022
+    400040: GlacialWall023
+    400042: GlacialWall024
+    400044: GlacialWall025
+    400046: GlacialWall026
+    400048: GlacialWall027
+    400050: //RootNode
+    4300000: GlacialWall014
+    4300002: GlacialWall017
+    4300004: GlacialWall018
+    4300006: GlacialWall019
+    4300008: GlacialWall020
+    4300010: GlacialWall021
+    4300012: GlacialWall022
+    4300014: GlacialWall023
+    4300016: GlacialWall024
+    4300018: GlacialWall025
+    4300020: GlacialWall026
+    4300022: GlacialWall027
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: GlacialWall014
+    13700002: GlacialWall017
+    13700004: GlacialWall018
+    13700006: GlacialWall019
+    13700008: GlacialWall020
+    13700010: GlacialWall021
+    13700012: GlacialWall022
+    13700014: GlacialWall023
+    13700016: GlacialWall024
+    13700018: GlacialWall025
+    13700020: GlacialWall026
+    13700022: GlacialWall027
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

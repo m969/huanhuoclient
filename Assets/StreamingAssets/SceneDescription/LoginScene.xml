@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <scene sceneName="LoginScene">
+    <gameObject objectName="EventSystem" objectAsset="EventSystem">
+      <transform>
+        <position x="0" y="0" z="0" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="ClientApp" objectAsset="ClientApp">
+      <transform>
+        <position x="0.5" y="0.5" z="-0.5" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Canvas" objectAsset="Canvas">
+      <transform>
+        <position x="0" y="0" z="0" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="0" y="0" z="0" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Main Camera" objectAsset="Main Camera">
+      <transform>
+        <position x="0" y="1" z="-10" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+  </scene>
+</root>

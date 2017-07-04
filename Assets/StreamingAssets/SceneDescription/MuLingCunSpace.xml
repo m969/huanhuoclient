@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <scene sceneName="MuLingCunSpace">
+    <gameObject objectName="hills (9)" objectAsset="hills">
+      <transform>
+        <position x="452" y="10" z="-40" />
+        <rotation x="270" y="89.84287" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="store01 (1)" objectAsset="store01">
+      <transform>
+        <position x="406.7" y="0.3" z="193.7" />
+        <rotation x="0" y="90" z="0" />
+        <scale x="1.453716" y="1.453716" z="2.120659" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree_02 1 (1)" objectAsset="tree_02 1">
+      <transform>
+        <position x="121" y="-0.8" z="52" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree_01 1" objectAsset="tree_01 1">
+      <transform>
+        <position x="376.74" y="-2.4" z="122.8" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1.245366" y="1.805155" z="1.245366" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (6)" objectAsset="Zabor">
+      <transform>
+        <position x="159" y="-0.7" z="65" />
+        <rotation x="0" y="329.3664" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (8)" objectAsset="hills">
+      <transform>
+        <position x="184" y="10" z="-50" />
+        <rotation x="270" y="89.84287" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="MainTerrain" objectAsset="MainTerrain">
+      <transform>
+        <position x="0" y="-0.7" z="0" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="building_08 loded (3)" objectAsset="building_08 loded">
+      <transform>
+        <position x="385.7" y="1" z="166.7" />
+        <rotation x="0" y="0.8129094" z="0" />
+        <scale x="1" y="1" z="2.145931" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (5)" objectAsset="Zabor">
+      <transform>
+        <position x="152" y="-0.7" z="61" />
+        <rotation x="0" y="329.3664" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Directional Light" objectAsset="Directional Light">
+      <transform>
+        <position x="0" y="3" z="0" />
+        <rotation x="50" y="330" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (1)" objectAsset="Zabor">
+      <transform>
+        <position x="146" y="-0.7" z="73" />
+        <rotation x="0" y="72.54339" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree_02 1" objectAsset="tree_02 1">
+      <transform>
+        <position x="110" y="-0.8" z="52" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (4)" objectAsset="Zabor">
+      <transform>
+        <position x="151" y="-0.7" z="64" />
+        <rotation x="0" y="329.3664" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="grass01" objectAsset="grass01">
+      <transform>
+        <position x="131.7" y="-0.8" z="-74.84" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (7)" objectAsset="Zabor">
+      <transform>
+        <position x="157" y="-0.7" z="68" />
+        <rotation x="0" y="352.9118" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="store01" objectAsset="store01">
+      <transform>
+        <position x="120" y="0.3" z="120" />
+        <rotation x="0" y="90" z="0" />
+        <scale x="1.453716" y="1.453716" z="2.120659" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (2)" objectAsset="hills">
+      <transform>
+        <position x="532.1" y="10" z="218.6" />
+        <rotation x="270" y="355.8464" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="trees3 (2)" objectAsset="trees3">
+      <transform>
+        <position x="227.9" y="0.3" z="112.9" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1.245366" y="1.805155" z="1.245366" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (3)" objectAsset="hills">
+      <transform>
+        <position x="533.2" y="10" z="456.8" />
+        <rotation x="270" y="355.8464" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree_02 1 (2)" objectAsset="tree_02 1">
+      <transform>
+        <position x="133" y="-0.8" z="52" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree_02 1 (4)" objectAsset="tree_02 1">
+      <transform>
+        <position x="101" y="-0.8" z="52" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (7)" objectAsset="hills">
+      <transform>
+        <position x="-58" y="10" z="50" />
+        <rotation x="270.0198" y="181.9613" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="trees4" objectAsset="trees4">
+      <transform>
+        <position x="407.6" y="-1.2" z="423.2" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (6)" objectAsset="hills">
+      <transform>
+        <position x="-49" y="10" z="312" />
+        <rotation x="270.0198" y="181.9613" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="stones" objectAsset="stones">
+      <transform>
+        <position x="166.6" y="-0.78134" z="365.3" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="125.25" y="125.2498" z="125.2498" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="building_08 loded" objectAsset="building_08 loded">
+      <transform>
+        <position x="147" y="1.1" z="93" />
+        <rotation x="0" y="180.2521" z="0" />
+        <scale x="1" y="1" z="2.145931" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (3)" objectAsset="Zabor">
+      <transform>
+        <position x="149" y="-0.7" z="67" />
+        <rotation x="0" y="18.12807" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="trees3" objectAsset="trees3">
+      <transform>
+        <position x="385.7" y="0.3" z="122.06" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1.245366" y="1.805155" z="1.245366" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (5)" objectAsset="hills">
+      <transform>
+        <position x="51" y="10" z="551" />
+        <rotation x="270" y="270.4521" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor (2)" objectAsset="Zabor">
+      <transform>
+        <position x="147" y="-0.7" z="69" />
+        <rotation x="0" y="72.54339" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="building_08 loded (1)" objectAsset="building_08 loded">
+      <transform>
+        <position x="99" y="1.1" z="93" />
+        <rotation x="0" y="0.8129094" z="0" />
+        <scale x="1" y="1" z="2.145931" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree5" objectAsset="tree5">
+      <transform>
+        <position x="78.2" y="-0.8" z="-3.6" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="building_08 loded (2)" objectAsset="building_08 loded">
+      <transform>
+        <position x="433.7" y="1" z="166.7" />
+        <rotation x="0" y="180.2521" z="0" />
+        <scale x="1" y="1" z="2.145931" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills (4)" objectAsset="hills">
+      <transform>
+        <position x="303" y="10" z="549" />
+        <rotation x="270" y="270.4521" z="0" />
+        <scale x="0.2929029" y="0.3875779" z="3.889896" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="trees3 (1)" objectAsset="trees3">
+      <transform>
+        <position x="300.4" y="0.3" z="131.8" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1.245366" y="1.805155" z="1.245366" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="trees1" objectAsset="trees1">
+      <transform>
+        <position x="176.6282" y="6.6" z="26.38419" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Zabor" objectAsset="Zabor">
+      <transform>
+        <position x="149" y="-0.7" z="74" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="tree_02 1 (3)" objectAsset="tree_02 1">
+      <transform>
+        <position x="144" y="-0.8" z="52" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+  </scene>
+</root>

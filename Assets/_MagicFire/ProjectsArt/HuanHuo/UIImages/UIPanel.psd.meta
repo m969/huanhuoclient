@@ -1,0 +1,79 @@
+fileFormatVersion: 2
+guid: 3e1c97d0d3df43a47b4771d34a4aa285
+timeCreated: 1476432654
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UIPanel_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UIPanel_0
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 318
+        width: 341
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 78, y: 72, z: 78, w: 76}
+      outline:
+      - - {x: -166.5, y: 170.5}
+        - {x: -169.5, y: 168.5}
+        - {x: -170.5, y: 165.5}
+        - {x: -170.5, y: -164.5}
+        - {x: -167.5, y: -169.5}
+        - {x: -164.5, y: -170.5}
+        - {x: 165.5, y: -170.5}
+        - {x: 170.5, y: -168.5}
+        - {x: 170.5, y: 168.5}
+        - {x: 168.5, y: 170.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

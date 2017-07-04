@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: cc461eade5e158849b1d1aaf5ca139b1
+timeCreated: 1491633582
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SkillQ_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SkillQ_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110, y: -109}
+        - {x: 110, y: 87}
+        - {x: 109, y: 90}
+        - {x: 107, y: 95}
+        - {x: 104, y: 98}
+        - {x: 98, y: 101}
+        - {x: -98, y: 101}
+        - {x: -101, y: 100}
+        - {x: -110, y: 95}
+        - {x: -112, y: 89}
+        - {x: -112, y: -107}
+        - {x: -111, y: -110}
+        - {x: -109, y: -115}
+        - {x: -106, y: -118}
+        - {x: -100, y: -121}
+        - {x: 96, y: -121}
+        - {x: 99, y: -120}
+        - {x: 104, y: -118}
+        - {x: 107, y: -115}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

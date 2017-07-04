@@ -1,0 +1,4255 @@
+fileFormatVersion: 2
+guid: 128ca751f099ede4692a0a65cf9cde16
+timeCreated: 1477918055
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: curve1000
+    100002: curve1002
+    100004: curve1004
+    100006: curve1006
+    100008: curve1008
+    100010: curve1010
+    100012: curve1012
+    100014: curve1014
+    100016: curve1016
+    100018: curve1018
+    100020: curve102
+    100022: curve1020
+    100024: curve1022
+    100026: curve1024
+    100028: curve1026
+    100030: curve1028
+    100032: curve1030
+    100034: curve1032
+    100036: curve1034
+    100038: curve1036
+    100040: curve1038
+    100042: curve1040
+    100044: curve1042
+    100046: curve1044
+    100048: curve1046
+    100050: curve1048
+    100052: curve105
+    100054: curve1050
+    100056: curve1052
+    100058: curve1054
+    100060: curve1056
+    100062: curve1058
+    100064: curve1060
+    100066: curve1062
+    100068: curve1064
+    100070: curve1066
+    100072: curve1068
+    100074: curve1070
+    100076: curve1072
+    100078: curve1074
+    100080: curve1076
+    100082: curve1078
+    100084: curve108
+    100086: curve1080
+    100088: curve1082
+    100090: curve1084
+    100092: curve1086
+    100094: curve1088
+    100096: curve1090
+    100098: curve1092
+    100100: curve1094
+    100102: curve1096
+    100104: curve1098
+    100106: curve1100
+    100108: curve1102
+    100110: curve1104
+    100112: curve1106
+    100114: curve1108
+    100116: curve111
+    100118: curve1110
+    100120: curve1112
+    100122: curve1114
+    100124: curve1116
+    100126: curve1118
+    100128: curve1120
+    100130: curve1122
+    100132: curve1124
+    100134: curve1126
+    100136: curve1128
+    100138: curve1130
+    100140: curve1132
+    100142: curve1134
+    100144: curve1136
+    100146: curve1138
+    100148: curve114
+    100150: curve1140
+    100152: curve1142
+    100154: curve1144
+    100156: curve1146
+    100158: curve1148
+    100160: curve1150
+    100162: curve1152
+    100164: curve1154
+    100166: curve1156
+    100168: curve1158
+    100170: curve1160
+    100172: curve1162
+    100174: curve1164
+    100176: curve1166
+    100178: curve1168
+    100180: curve117
+    100182: curve1170
+    100184: curve1172
+    100186: curve12
+    100188: curve120
+    100190: curve123
+    100192: curve126
+    100194: curve129
+    100196: curve132
+    100198: curve135
+    100200: curve138
+    100202: curve141
+    100204: curve144
+    100206: curve147
+    100208: curve15
+    100210: curve150
+    100212: curve153
+    100214: curve156
+    100216: curve159
+    100218: curve162
+    100220: curve165
+    100222: curve168
+    100224: curve171
+    100226: curve174
+    100228: curve177
+    100230: curve18
+    100232: curve180
+    100234: curve183
+    100236: curve186
+    100238: curve189
+    100240: curve192
+    100242: curve195
+    100244: curve198
+    100246: curve201
+    100248: curve204
+    100250: curve207
+    100252: curve21
+    100254: curve210
+    100256: curve213
+    100258: curve216
+    100260: curve219
+    100262: curve222
+    100264: curve225
+    100266: curve228
+    100268: curve231
+    100270: curve234
+    100272: curve237
+    100274: curve24
+    100276: curve240
+    100278: curve243
+    100280: curve246
+    100282: curve249
+    100284: curve252
+    100286: curve255
+    100288: curve258
+    100290: curve261
+    100292: curve264
+    100294: curve267
+    100296: curve27
+    100298: curve270
+    100300: curve273
+    100302: curve276
+    100304: curve279
+    100306: curve282
+    100308: curve285
+    100310: curve288
+    100312: curve291
+    100314: curve294
+    100316: curve297
+    100318: curve3
+    100320: curve30
+    100322: curve300
+    100324: curve303
+    100326: curve306
+    100328: curve309
+    100330: curve312
+    100332: curve315
+    100334: curve318
+    100336: curve321
+    100338: curve324
+    100340: curve327
+    100342: curve33
+    100344: curve330
+    100346: curve333
+    100348: curve336
+    100350: curve339
+    100352: curve342
+    100354: curve345
+    100356: curve348
+    100358: curve351
+    100360: curve354
+    100362: curve357
+    100364: curve36
+    100366: curve360
+    100368: curve363
+    100370: curve366
+    100372: curve369
+    100374: curve372
+    100376: curve375
+    100378: curve378
+    100380: curve381
+    100382: curve384
+    100384: curve387
+    100386: curve39
+    100388: curve390
+    100390: curve393
+    100392: curve396
+    100394: curve399
+    100396: curve402
+    100398: curve405
+    100400: curve408
+    100402: curve411
+    100404: curve414
+    100406: curve417
+    100408: curve42
+    100410: curve420
+    100412: curve423
+    100414: curve426
+    100416: curve429
+    100418: curve432
+    100420: curve435
+    100422: curve438
+    100424: curve441
+    100426: curve444
+    100428: curve447
+    100430: curve45
+    100432: curve450
+    100434: curve453
+    100436: curve456
+    100438: curve459
+    100440: curve462
+    100442: curve465
+    100444: curve468
+    100446: curve471
+    100448: curve474
+    100450: curve477
+    100452: curve48
+    100454: curve480
+    100456: curve483
+    100458: curve486
+    100460: curve489
+    100462: curve492
+    100464: curve495
+    100466: curve498
+    100468: curve501
+    100470: curve504
+    100472: curve507
+    100474: curve51
+    100476: curve510
+    100478: curve513
+    100480: curve516
+    100482: curve519
+    100484: curve522
+    100486: curve525
+    100488: curve528
+    100490: curve531
+    100492: curve534
+    100494: curve537
+    100496: curve54
+    100498: curve540
+    100500: curve543
+    100502: curve546
+    100504: curve549
+    100506: curve552
+    100508: curve555
+    100510: curve558
+    100512: curve561
+    100514: curve564
+    100516: curve567
+    100518: curve57
+    100520: curve570
+    100522: curve573
+    100524: curve576
+    100526: curve579
+    100528: curve582
+    100530: curve585
+    100532: curve588
+    100534: curve591
+    100536: curve594
+    100538: curve597
+    100540: curve6
+    100542: curve60
+    100544: curve600
+    100546: curve603
+    100548: curve606
+    100550: curve609
+    100552: curve612
+    100554: curve615
+    100556: curve618
+    100558: curve621
+    100560: curve624
+    100562: curve627
+    100564: curve63
+    100566: curve630
+    100568: curve633
+    100570: curve636
+    100572: curve639
+    100574: curve642
+    100576: curve645
+    100578: curve648
+    100580: curve651
+    100582: curve654
+    100584: curve657
+    100586: curve66
+    100588: curve660
+    100590: curve663
+    100592: curve666
+    100594: curve669
+    100596: curve672
+    100598: curve675
+    100600: curve678
+    100602: curve681
+    100604: curve684
+    100606: curve687
+    100608: curve69
+    100610: curve690
+    100612: curve693
+    100614: curve696
+    100616: curve699
+    100618: curve702
+    100620: curve705
+    100622: curve708
+    100624: curve711
+    100626: curve714
+    100628: curve717
+    100630: curve72
+    100632: curve720
+    100634: curve723
+    100636: curve726
+    100638: curve729
+    100640: curve732
+    100642: curve735
+    100644: curve738
+    100646: curve741
+    100648: curve744
+    100650: curve747
+    100652: curve75
+    100654: curve750
+    100656: curve753
+    100658: curve756
+    100660: curve759
+    100662: curve762
+    100664: curve765
+    100666: curve768
+    100668: curve771
+    100670: curve774
+    100672: curve777
+    100674: curve78
+    100676: curve780
+    100678: curve783
+    100680: curve786
+    100682: curve789
+    100684: curve792
+    100686: curve795
+    100688: curve798
+    100690: curve801
+    100692: curve804
+    100694: curve807
+    100696: curve81
+    100698: curve810
+    100700: curve813
+    100702: curve816
+    100704: curve819
+    100706: curve822
+    100708: curve825
+    100710: curve828
+    100712: curve831
+    100714: curve834
+    100716: curve837
+    100718: curve84
+    100720: curve840
+    100722: curve843
+    100724: curve846
+    100726: curve849
+    100728: curve852
+    100730: curve855
+    100732: curve858
+    100734: curve861
+    100736: curve864
+    100738: curve867
+    100740: curve87
+    100742: curve870
+    100744: curve873
+    100746: curve876
+    100748: curve879
+    100750: curve882
+    100752: curve885
+    100754: curve888
+    100756: curve891
+    100758: curve894
+    100760: curve897
+    100762: curve9
+    100764: curve90
+    100766: curve900
+    100768: curve903
+    100770: curve906
+    100772: curve909
+    100774: curve912
+    100776: curve915
+    100778: curve918
+    100780: curve921
+    100782: curve924
+    100784: curve927
+    100786: curve93
+    100788: curve930
+    100790: curve933
+    100792: curve936
+    100794: curve939
+    100796: curve942
+    100798: curve945
+    100800: curve948
+    100802: curve951
+    100804: curve954
+    100806: curve957
+    100808: curve96
+    100810: curve960
+    100812: curve963
+    100814: curve966
+    100816: curve969
+    100818: curve972
+    100820: curve975
+    100822: curve978
+    100824: curve981
+    100826: curve984
+    100828: curve986
+    100830: curve988
+    100832: curve99
+    100834: curve990
+    100836: curve992
+    100838: curve994
+    100840: curve996
+    100842: curve998
+    100844: group1
+    100846: group2
+    100848: group4
+    100850: group5
+    100852: group6
+    100854: group7
+    100856: hairSystem1Follicles
+    100858: hairSystem1OutputCurves
+    100860: joint10
+    100862: joint11
+    100864: joint12
+    100866: joint13
+    100868: joint14
+    100870: joint19
+    100872: joint20
+    100874: joint21
+    100876: joint22
+    100878: joint23
+    100880: joint24
+    100882: joint25
+    100884: joint26
+    100886: joint27
+    100888: joint28
+    100890: joint29
+    100892: joint30
+    100894: joint31
+    100896: joint32
+    100898: joint33
+    100900: joint34
+    100902: joint36
+    100904: joint37
+    100906: joint38
+    100908: joint39
+    100910: joint4
+    100912: joint40
+    100914: joint41
+    100916: joint42
+    100918: joint43
+    100920: joint44
+    100922: joint45
+    100924: joint46
+    100926: joint47
+    100928: joint48
+    100930: joint49
+    100932: joint5
+    100934: joint50
+    100936: joint51
+    100938: joint52
+    100940: joint53
+    100942: joint54
+    100944: joint55
+    100946: joint56
+    100948: joint57
+    100950: joint58
+    100952: joint59
+    100954: joint6
+    100956: joint60
+    100958: joint61
+    100960: joint62
+    100962: joint63
+    100964: joint64
+    100966: joint65
+    100968: joint66
+    100970: joint67
+    100972: joint68
+    100974: joint69
+    100976: joint7
+    100978: joint70
+    100980: joint71
+    100982: joint72
+    100984: joint8
+    100986: joint9
+    100988: left
+    100990: pCube1
+    100992: pCube10
+    100994: pCube11
+    100996: pCube3
+    100998: pCube4
+    101000: pCube6
+    101002: pCube7
+    101004: pfxHair1
+    101006: //RootNode
+    101008: pTorus1
+    101010: StraightLongHilight:hairAll
+    101012: StraightLongHilight:hairLineFollicle3830
+    101014: StraightLongHilight:hairSystem1Follicles
+    101016: transform1
+    101018: transform2
+    400000: curve1000
+    400002: curve1002
+    400004: curve1004
+    400006: curve1006
+    400008: curve1008
+    400010: curve1010
+    400012: curve1012
+    400014: curve1014
+    400016: curve1016
+    400018: curve1018
+    400020: curve102
+    400022: curve1020
+    400024: curve1022
+    400026: curve1024
+    400028: curve1026
+    400030: curve1028
+    400032: curve1030
+    400034: curve1032
+    400036: curve1034
+    400038: curve1036
+    400040: curve1038
+    400042: curve1040
+    400044: curve1042
+    400046: curve1044
+    400048: curve1046
+    400050: curve1048
+    400052: curve105
+    400054: curve1050
+    400056: curve1052
+    400058: curve1054
+    400060: curve1056
+    400062: curve1058
+    400064: curve1060
+    400066: curve1062
+    400068: curve1064
+    400070: curve1066
+    400072: curve1068
+    400074: curve1070
+    400076: curve1072
+    400078: curve1074
+    400080: curve1076
+    400082: curve1078
+    400084: curve108
+    400086: curve1080
+    400088: curve1082
+    400090: curve1084
+    400092: curve1086
+    400094: curve1088
+    400096: curve1090
+    400098: curve1092
+    400100: curve1094
+    400102: curve1096
+    400104: curve1098
+    400106: curve1100
+    400108: curve1102
+    400110: curve1104
+    400112: curve1106
+    400114: curve1108
+    400116: curve111
+    400118: curve1110
+    400120: curve1112
+    400122: curve1114
+    400124: curve1116
+    400126: curve1118
+    400128: curve1120
+    400130: curve1122
+    400132: curve1124
+    400134: curve1126
+    400136: curve1128
+    400138: curve1130
+    400140: curve1132
+    400142: curve1134
+    400144: curve1136
+    400146: curve1138
+    400148: curve114
+    400150: curve1140
+    400152: curve1142
+    400154: curve1144
+    400156: curve1146
+    400158: curve1148
+    400160: curve1150
+    400162: curve1152
+    400164: curve1154
+    400166: curve1156
+    400168: curve1158
+    400170: curve1160
+    400172: curve1162
+    400174: curve1164
+    400176: curve1166
+    400178: curve1168
+    400180: curve117
+    400182: curve1170
+    400184: curve1172
+    400186: curve12
+    400188: curve120
+    400190: curve123
+    400192: curve126
+    400194: curve129
+    400196: curve132
+    400198: curve135
+    400200: curve138
+    400202: curve141
+    400204: curve144
+    400206: curve147
+    400208: curve15
+    400210: curve150
+    400212: curve153
+    400214: curve156
+    400216: curve159
+    400218: curve162
+    400220: curve165
+    400222: curve168
+    400224: curve171
+    400226: curve174
+    400228: curve177
+    400230: curve18
+    400232: curve180
+    400234: curve183
+    400236: curve186
+    400238: curve189
+    400240: curve192
+    400242: curve195
+    400244: curve198
+    400246: curve201
+    400248: curve204
+    400250: curve207
+    400252: curve21
+    400254: curve210
+    400256: curve213
+    400258: curve216
+    400260: curve219
+    400262: curve222
+    400264: curve225
+    400266: curve228
+    400268: curve231
+    400270: curve234
+    400272: curve237
+    400274: curve24
+    400276: curve240
+    400278: curve243
+    400280: curve246
+    400282: curve249
+    400284: curve252
+    400286: curve255
+    400288: curve258
+    400290: curve261
+    400292: curve264
+    400294: curve267
+    400296: curve27
+    400298: curve270
+    400300: curve273
+    400302: curve276
+    400304: curve279
+    400306: curve282
+    400308: curve285
+    400310: curve288
+    400312: curve291
+    400314: curve294
+    400316: curve297
+    400318: curve3
+    400320: curve30
+    400322: curve300
+    400324: curve303
+    400326: curve306
+    400328: curve309
+    400330: curve312
+    400332: curve315
+    400334: curve318
+    400336: curve321
+    400338: curve324
+    400340: curve327
+    400342: curve33
+    400344: curve330
+    400346: curve333
+    400348: curve336
+    400350: curve339
+    400352: curve342
+    400354: curve345
+    400356: curve348
+    400358: curve351
+    400360: curve354
+    400362: curve357
+    400364: curve36
+    400366: curve360
+    400368: curve363
+    400370: curve366
+    400372: curve369
+    400374: curve372
+    400376: curve375
+    400378: curve378
+    400380: curve381
+    400382: curve384
+    400384: curve387
+    400386: curve39
+    400388: curve390
+    400390: curve393
+    400392: curve396
+    400394: curve399
+    400396: curve402
+    400398: curve405
+    400400: curve408
+    400402: curve411
+    400404: curve414
+    400406: curve417
+    400408: curve42
+    400410: curve420
+    400412: curve423
+    400414: curve426
+    400416: curve429
+    400418: curve432
+    400420: curve435
+    400422: curve438
+    400424: curve441
+    400426: curve444
+    400428: curve447
+    400430: curve45
+    400432: curve450
+    400434: curve453
+    400436: curve456
+    400438: curve459
+    400440: curve462
+    400442: curve465
+    400444: curve468
+    400446: curve471
+    400448: curve474
+    400450: curve477
+    400452: curve48
+    400454: curve480
+    400456: curve483
+    400458: curve486
+    400460: curve489
+    400462: curve492
+    400464: curve495
+    400466: curve498
+    400468: curve501
+    400470: curve504
+    400472: curve507
+    400474: curve51
+    400476: curve510
+    400478: curve513
+    400480: curve516
+    400482: curve519
+    400484: curve522
+    400486: curve525
+    400488: curve528
+    400490: curve531
+    400492: curve534
+    400494: curve537
+    400496: curve54
+    400498: curve540
+    400500: curve543
+    400502: curve546
+    400504: curve549
+    400506: curve552
+    400508: curve555
+    400510: curve558
+    400512: curve561
+    400514: curve564
+    400516: curve567
+    400518: curve57
+    400520: curve570
+    400522: curve573
+    400524: curve576
+    400526: curve579
+    400528: curve582
+    400530: curve585
+    400532: curve588
+    400534: curve591
+    400536: curve594
+    400538: curve597
+    400540: curve6
+    400542: curve60
+    400544: curve600
+    400546: curve603
+    400548: curve606
+    400550: curve609
+    400552: curve612
+    400554: curve615
+    400556: curve618
+    400558: curve621
+    400560: curve624
+    400562: curve627
+    400564: curve63
+    400566: curve630
+    400568: curve633
+    400570: curve636
+    400572: curve639
+    400574: curve642
+    400576: curve645
+    400578: curve648
+    400580: curve651
+    400582: curve654
+    400584: curve657
+    400586: curve66
+    400588: curve660
+    400590: curve663
+    400592: curve666
+    400594: curve669
+    400596: curve672
+    400598: curve675
+    400600: curve678
+    400602: curve681
+    400604: curve684
+    400606: curve687
+    400608: curve69
+    400610: curve690
+    400612: curve693
+    400614: curve696
+    400616: curve699
+    400618: curve702
+    400620: curve705
+    400622: curve708
+    400624: curve711
+    400626: curve714
+    400628: curve717
+    400630: curve72
+    400632: curve720
+    400634: curve723
+    400636: curve726
+    400638: curve729
+    400640: curve732
+    400642: curve735
+    400644: curve738
+    400646: curve741
+    400648: curve744
+    400650: curve747
+    400652: curve75
+    400654: curve750
+    400656: curve753
+    400658: curve756
+    400660: curve759
+    400662: curve762
+    400664: curve765
+    400666: curve768
+    400668: curve771
+    400670: curve774
+    400672: curve777
+    400674: curve78
+    400676: curve780
+    400678: curve783
+    400680: curve786
+    400682: curve789
+    400684: curve792
+    400686: curve795
+    400688: curve798
+    400690: curve801
+    400692: curve804
+    400694: curve807
+    400696: curve81
+    400698: curve810
+    400700: curve813
+    400702: curve816
+    400704: curve819
+    400706: curve822
+    400708: curve825
+    400710: curve828
+    400712: curve831
+    400714: curve834
+    400716: curve837
+    400718: curve84
+    400720: curve840
+    400722: curve843
+    400724: curve846
+    400726: curve849
+    400728: curve852
+    400730: curve855
+    400732: curve858
+    400734: curve861
+    400736: curve864
+    400738: curve867
+    400740: curve87
+    400742: curve870
+    400744: curve873
+    400746: curve876
+    400748: curve879
+    400750: curve882
+    400752: curve885
+    400754: curve888
+    400756: curve891
+    400758: curve894
+    400760: curve897
+    400762: curve9
+    400764: curve90
+    400766: curve900
+    400768: curve903
+    400770: curve906
+    400772: curve909
+    400774: curve912
+    400776: curve915
+    400778: curve918
+    400780: curve921
+    400782: curve924
+    400784: curve927
+    400786: curve93
+    400788: curve930
+    400790: curve933
+    400792: curve936
+    400794: curve939
+    400796: curve942
+    400798: curve945
+    400800: curve948
+    400802: curve951
+    400804: curve954
+    400806: curve957
+    400808: curve96
+    400810: curve960
+    400812: curve963
+    400814: curve966
+    400816: curve969
+    400818: curve972
+    400820: curve975
+    400822: curve978
+    400824: curve981
+    400826: curve984
+    400828: curve986
+    400830: curve988
+    400832: curve99
+    400834: curve990
+    400836: curve992
+    400838: curve994
+    400840: curve996
+    400842: curve998
+    400844: group1
+    400846: group2
+    400848: group4
+    400850: group5
+    400852: group6
+    400854: group7
+    400856: hairSystem1Follicles
+    400858: hairSystem1OutputCurves
+    400860: joint10
+    400862: joint11
+    400864: joint12
+    400866: joint13
+    400868: joint14
+    400870: joint19
+    400872: joint20
+    400874: joint21
+    400876: joint22
+    400878: joint23
+    400880: joint24
+    400882: joint25
+    400884: joint26
+    400886: joint27
+    400888: joint28
+    400890: joint29
+    400892: joint30
+    400894: joint31
+    400896: joint32
+    400898: joint33
+    400900: joint34
+    400902: joint36
+    400904: joint37
+    400906: joint38
+    400908: joint39
+    400910: joint4
+    400912: joint40
+    400914: joint41
+    400916: joint42
+    400918: joint43
+    400920: joint44
+    400922: joint45
+    400924: joint46
+    400926: joint47
+    400928: joint48
+    400930: joint49
+    400932: joint5
+    400934: joint50
+    400936: joint51
+    400938: joint52
+    400940: joint53
+    400942: joint54
+    400944: joint55
+    400946: joint56
+    400948: joint57
+    400950: joint58
+    400952: joint59
+    400954: joint6
+    400956: joint60
+    400958: joint61
+    400960: joint62
+    400962: joint63
+    400964: joint64
+    400966: joint65
+    400968: joint66
+    400970: joint67
+    400972: joint68
+    400974: joint69
+    400976: joint7
+    400978: joint70
+    400980: joint71
+    400982: joint72
+    400984: joint8
+    400986: joint9
+    400988: left
+    400990: pCube1
+    400992: pCube10
+    400994: pCube11
+    400996: pCube3
+    400998: pCube4
+    401000: pCube6
+    401002: pCube7
+    401004: pfxHair1
+    401006: //RootNode
+    401008: pTorus1
+    401010: StraightLongHilight:hairAll
+    401012: StraightLongHilight:hairLineFollicle3830
+    401014: StraightLongHilight:hairSystem1Follicles
+    401016: transform1
+    401018: transform2
+    4300000: pCube4
+    4300002: pCube6
+    4300004: pCube7
+    4300006: pTorus1
+    4300008: pCube1
+    4300010: pCube3
+    4300012: pCube10
+    4300014: pCube11
+    7400000: Take 001
+    7400002: Run
+    7400004: Idle
+    9500000: //RootNode
+    13700000: pCube1
+    13700002: pCube10
+    13700004: pCube11
+    13700006: pCube3
+    13700008: pCube4
+    13700010: pCube6
+    13700012: pCube7
+    13700014: pTorus1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/group2
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/group6
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube3
+        weight: 1
+      - path: group7/pCube4
+        weight: 1
+      - path: group7/pCube6
+        weight: 1
+      - path: group7/pCube7
+        weight: 1
+      - path: group7/pCube10
+        weight: 1
+      - path: group7/pCube11
+        weight: 1
+      - path: group7/pTorus1
+        weight: 1
+      - path: hairSystem1Follicles
+        weight: 1
+      - path: hairSystem1OutputCurves
+        weight: 1
+      - path: hairSystem1OutputCurves/curve3
+        weight: 1
+      - path: hairSystem1OutputCurves/curve6
+        weight: 1
+      - path: hairSystem1OutputCurves/curve9
+        weight: 1
+      - path: hairSystem1OutputCurves/curve12
+        weight: 1
+      - path: hairSystem1OutputCurves/curve15
+        weight: 1
+      - path: hairSystem1OutputCurves/curve18
+        weight: 1
+      - path: hairSystem1OutputCurves/curve21
+        weight: 1
+      - path: hairSystem1OutputCurves/curve24
+        weight: 1
+      - path: hairSystem1OutputCurves/curve27
+        weight: 1
+      - path: hairSystem1OutputCurves/curve30
+        weight: 1
+      - path: hairSystem1OutputCurves/curve33
+        weight: 1
+      - path: hairSystem1OutputCurves/curve36
+        weight: 1
+      - path: hairSystem1OutputCurves/curve39
+        weight: 1
+      - path: hairSystem1OutputCurves/curve42
+        weight: 1
+      - path: hairSystem1OutputCurves/curve45
+        weight: 1
+      - path: hairSystem1OutputCurves/curve48
+        weight: 1
+      - path: hairSystem1OutputCurves/curve51
+        weight: 1
+      - path: hairSystem1OutputCurves/curve54
+        weight: 1
+      - path: hairSystem1OutputCurves/curve57
+        weight: 1
+      - path: hairSystem1OutputCurves/curve60
+        weight: 1
+      - path: hairSystem1OutputCurves/curve63
+        weight: 1
+      - path: hairSystem1OutputCurves/curve66
+        weight: 1
+      - path: hairSystem1OutputCurves/curve69
+        weight: 1
+      - path: hairSystem1OutputCurves/curve72
+        weight: 1
+      - path: hairSystem1OutputCurves/curve75
+        weight: 1
+      - path: hairSystem1OutputCurves/curve78
+        weight: 1
+      - path: hairSystem1OutputCurves/curve81
+        weight: 1
+      - path: hairSystem1OutputCurves/curve84
+        weight: 1
+      - path: hairSystem1OutputCurves/curve87
+        weight: 1
+      - path: hairSystem1OutputCurves/curve90
+        weight: 1
+      - path: hairSystem1OutputCurves/curve93
+        weight: 1
+      - path: hairSystem1OutputCurves/curve96
+        weight: 1
+      - path: hairSystem1OutputCurves/curve99
+        weight: 1
+      - path: hairSystem1OutputCurves/curve102
+        weight: 1
+      - path: hairSystem1OutputCurves/curve105
+        weight: 1
+      - path: hairSystem1OutputCurves/curve108
+        weight: 1
+      - path: hairSystem1OutputCurves/curve111
+        weight: 1
+      - path: hairSystem1OutputCurves/curve114
+        weight: 1
+      - path: hairSystem1OutputCurves/curve117
+        weight: 1
+      - path: hairSystem1OutputCurves/curve120
+        weight: 1
+      - path: hairSystem1OutputCurves/curve123
+        weight: 1
+      - path: hairSystem1OutputCurves/curve126
+        weight: 1
+      - path: hairSystem1OutputCurves/curve129
+        weight: 1
+      - path: hairSystem1OutputCurves/curve132
+        weight: 1
+      - path: hairSystem1OutputCurves/curve135
+        weight: 1
+      - path: hairSystem1OutputCurves/curve138
+        weight: 1
+      - path: hairSystem1OutputCurves/curve141
+        weight: 1
+      - path: hairSystem1OutputCurves/curve144
+        weight: 1
+      - path: hairSystem1OutputCurves/curve147
+        weight: 1
+      - path: hairSystem1OutputCurves/curve150
+        weight: 1
+      - path: hairSystem1OutputCurves/curve153
+        weight: 1
+      - path: hairSystem1OutputCurves/curve156
+        weight: 1
+      - path: hairSystem1OutputCurves/curve159
+        weight: 1
+      - path: hairSystem1OutputCurves/curve162
+        weight: 1
+      - path: hairSystem1OutputCurves/curve165
+        weight: 1
+      - path: hairSystem1OutputCurves/curve168
+        weight: 1
+      - path: hairSystem1OutputCurves/curve171
+        weight: 1
+      - path: hairSystem1OutputCurves/curve174
+        weight: 1
+      - path: hairSystem1OutputCurves/curve177
+        weight: 1
+      - path: hairSystem1OutputCurves/curve180
+        weight: 1
+      - path: hairSystem1OutputCurves/curve183
+        weight: 1
+      - path: hairSystem1OutputCurves/curve186
+        weight: 1
+      - path: hairSystem1OutputCurves/curve189
+        weight: 1
+      - path: hairSystem1OutputCurves/curve192
+        weight: 1
+      - path: hairSystem1OutputCurves/curve195
+        weight: 1
+      - path: hairSystem1OutputCurves/curve198
+        weight: 1
+      - path: hairSystem1OutputCurves/curve201
+        weight: 1
+      - path: hairSystem1OutputCurves/curve204
+        weight: 1
+      - path: hairSystem1OutputCurves/curve207
+        weight: 1
+      - path: hairSystem1OutputCurves/curve210
+        weight: 1
+      - path: hairSystem1OutputCurves/curve213
+        weight: 1
+      - path: hairSystem1OutputCurves/curve216
+        weight: 1
+      - path: hairSystem1OutputCurves/curve219
+        weight: 1
+      - path: hairSystem1OutputCurves/curve222
+        weight: 1
+      - path: hairSystem1OutputCurves/curve225
+        weight: 1
+      - path: hairSystem1OutputCurves/curve228
+        weight: 1
+      - path: hairSystem1OutputCurves/curve231
+        weight: 1
+      - path: hairSystem1OutputCurves/curve234
+        weight: 1
+      - path: hairSystem1OutputCurves/curve237
+        weight: 1
+      - path: hairSystem1OutputCurves/curve240
+        weight: 1
+      - path: hairSystem1OutputCurves/curve243
+        weight: 1
+      - path: hairSystem1OutputCurves/curve246
+        weight: 1
+      - path: hairSystem1OutputCurves/curve249
+        weight: 1
+      - path: hairSystem1OutputCurves/curve252
+        weight: 1
+      - path: hairSystem1OutputCurves/curve255
+        weight: 1
+      - path: hairSystem1OutputCurves/curve258
+        weight: 1
+      - path: hairSystem1OutputCurves/curve261
+        weight: 1
+      - path: hairSystem1OutputCurves/curve264
+        weight: 1
+      - path: hairSystem1OutputCurves/curve267
+        weight: 1
+      - path: hairSystem1OutputCurves/curve270
+        weight: 1
+      - path: hairSystem1OutputCurves/curve273
+        weight: 1
+      - path: hairSystem1OutputCurves/curve276
+        weight: 1
+      - path: hairSystem1OutputCurves/curve279
+        weight: 1
+      - path: hairSystem1OutputCurves/curve282
+        weight: 1
+      - path: hairSystem1OutputCurves/curve285
+        weight: 1
+      - path: hairSystem1OutputCurves/curve288
+        weight: 1
+      - path: hairSystem1OutputCurves/curve291
+        weight: 1
+      - path: hairSystem1OutputCurves/curve294
+        weight: 1
+      - path: hairSystem1OutputCurves/curve297
+        weight: 1
+      - path: hairSystem1OutputCurves/curve300
+        weight: 1
+      - path: hairSystem1OutputCurves/curve303
+        weight: 1
+      - path: hairSystem1OutputCurves/curve306
+        weight: 1
+      - path: hairSystem1OutputCurves/curve309
+        weight: 1
+      - path: hairSystem1OutputCurves/curve312
+        weight: 1
+      - path: hairSystem1OutputCurves/curve315
+        weight: 1
+      - path: hairSystem1OutputCurves/curve318
+        weight: 1
+      - path: hairSystem1OutputCurves/curve321
+        weight: 1
+      - path: hairSystem1OutputCurves/curve324
+        weight: 1
+      - path: hairSystem1OutputCurves/curve327
+        weight: 1
+      - path: hairSystem1OutputCurves/curve330
+        weight: 1
+      - path: hairSystem1OutputCurves/curve333
+        weight: 1
+      - path: hairSystem1OutputCurves/curve336
+        weight: 1
+      - path: hairSystem1OutputCurves/curve339
+        weight: 1
+      - path: hairSystem1OutputCurves/curve342
+        weight: 1
+      - path: hairSystem1OutputCurves/curve345
+        weight: 1
+      - path: hairSystem1OutputCurves/curve348
+        weight: 1
+      - path: hairSystem1OutputCurves/curve351
+        weight: 1
+      - path: hairSystem1OutputCurves/curve354
+        weight: 1
+      - path: hairSystem1OutputCurves/curve357
+        weight: 1
+      - path: hairSystem1OutputCurves/curve360
+        weight: 1
+      - path: hairSystem1OutputCurves/curve363
+        weight: 1
+      - path: hairSystem1OutputCurves/curve366
+        weight: 1
+      - path: hairSystem1OutputCurves/curve369
+        weight: 1
+      - path: hairSystem1OutputCurves/curve372
+        weight: 1
+      - path: hairSystem1OutputCurves/curve375
+        weight: 1
+      - path: hairSystem1OutputCurves/curve378
+        weight: 1
+      - path: hairSystem1OutputCurves/curve381
+        weight: 1
+      - path: hairSystem1OutputCurves/curve384
+        weight: 1
+      - path: hairSystem1OutputCurves/curve387
+        weight: 1
+      - path: hairSystem1OutputCurves/curve390
+        weight: 1
+      - path: hairSystem1OutputCurves/curve393
+        weight: 1
+      - path: hairSystem1OutputCurves/curve396
+        weight: 1
+      - path: hairSystem1OutputCurves/curve399
+        weight: 1
+      - path: hairSystem1OutputCurves/curve402
+        weight: 1
+      - path: hairSystem1OutputCurves/curve405
+        weight: 1
+      - path: hairSystem1OutputCurves/curve408
+        weight: 1
+      - path: hairSystem1OutputCurves/curve411
+        weight: 1
+      - path: hairSystem1OutputCurves/curve414
+        weight: 1
+      - path: hairSystem1OutputCurves/curve417
+        weight: 1
+      - path: hairSystem1OutputCurves/curve420
+        weight: 1
+      - path: hairSystem1OutputCurves/curve423
+        weight: 1
+      - path: hairSystem1OutputCurves/curve426
+        weight: 1
+      - path: hairSystem1OutputCurves/curve429
+        weight: 1
+      - path: hairSystem1OutputCurves/curve432
+        weight: 1
+      - path: hairSystem1OutputCurves/curve435
+        weight: 1
+      - path: hairSystem1OutputCurves/curve438
+        weight: 1
+      - path: hairSystem1OutputCurves/curve441
+        weight: 1
+      - path: hairSystem1OutputCurves/curve444
+        weight: 1
+      - path: hairSystem1OutputCurves/curve447
+        weight: 1
+      - path: hairSystem1OutputCurves/curve450
+        weight: 1
+      - path: hairSystem1OutputCurves/curve453
+        weight: 1
+      - path: hairSystem1OutputCurves/curve456
+        weight: 1
+      - path: hairSystem1OutputCurves/curve459
+        weight: 1
+      - path: hairSystem1OutputCurves/curve462
+        weight: 1
+      - path: hairSystem1OutputCurves/curve465
+        weight: 1
+      - path: hairSystem1OutputCurves/curve468
+        weight: 1
+      - path: hairSystem1OutputCurves/curve471
+        weight: 1
+      - path: hairSystem1OutputCurves/curve474
+        weight: 1
+      - path: hairSystem1OutputCurves/curve477
+        weight: 1
+      - path: hairSystem1OutputCurves/curve480
+        weight: 1
+      - path: hairSystem1OutputCurves/curve483
+        weight: 1
+      - path: hairSystem1OutputCurves/curve486
+        weight: 1
+      - path: hairSystem1OutputCurves/curve489
+        weight: 1
+      - path: hairSystem1OutputCurves/curve492
+        weight: 1
+      - path: hairSystem1OutputCurves/curve495
+        weight: 1
+      - path: hairSystem1OutputCurves/curve498
+        weight: 1
+      - path: hairSystem1OutputCurves/curve501
+        weight: 1
+      - path: hairSystem1OutputCurves/curve504
+        weight: 1
+      - path: hairSystem1OutputCurves/curve507
+        weight: 1
+      - path: hairSystem1OutputCurves/curve510
+        weight: 1
+      - path: hairSystem1OutputCurves/curve513
+        weight: 1
+      - path: hairSystem1OutputCurves/curve516
+        weight: 1
+      - path: hairSystem1OutputCurves/curve519
+        weight: 1
+      - path: hairSystem1OutputCurves/curve522
+        weight: 1
+      - path: hairSystem1OutputCurves/curve525
+        weight: 1
+      - path: hairSystem1OutputCurves/curve528
+        weight: 1
+      - path: hairSystem1OutputCurves/curve531
+        weight: 1
+      - path: hairSystem1OutputCurves/curve534
+        weight: 1
+      - path: hairSystem1OutputCurves/curve537
+        weight: 1
+      - path: hairSystem1OutputCurves/curve540
+        weight: 1
+      - path: hairSystem1OutputCurves/curve543
+        weight: 1
+      - path: hairSystem1OutputCurves/curve546
+        weight: 1
+      - path: hairSystem1OutputCurves/curve549
+        weight: 1
+      - path: hairSystem1OutputCurves/curve552
+        weight: 1
+      - path: hairSystem1OutputCurves/curve555
+        weight: 1
+      - path: hairSystem1OutputCurves/curve558
+        weight: 1
+      - path: hairSystem1OutputCurves/curve561
+        weight: 1
+      - path: hairSystem1OutputCurves/curve564
+        weight: 1
+      - path: hairSystem1OutputCurves/curve567
+        weight: 1
+      - path: hairSystem1OutputCurves/curve570
+        weight: 1
+      - path: hairSystem1OutputCurves/curve573
+        weight: 1
+      - path: hairSystem1OutputCurves/curve576
+        weight: 1
+      - path: hairSystem1OutputCurves/curve579
+        weight: 1
+      - path: hairSystem1OutputCurves/curve582
+        weight: 1
+      - path: hairSystem1OutputCurves/curve585
+        weight: 1
+      - path: hairSystem1OutputCurves/curve588
+        weight: 1
+      - path: hairSystem1OutputCurves/curve591
+        weight: 1
+      - path: hairSystem1OutputCurves/curve594
+        weight: 1
+      - path: hairSystem1OutputCurves/curve597
+        weight: 1
+      - path: hairSystem1OutputCurves/curve600
+        weight: 1
+      - path: hairSystem1OutputCurves/curve603
+        weight: 1
+      - path: hairSystem1OutputCurves/curve606
+        weight: 1
+      - path: hairSystem1OutputCurves/curve609
+        weight: 1
+      - path: hairSystem1OutputCurves/curve612
+        weight: 1
+      - path: hairSystem1OutputCurves/curve615
+        weight: 1
+      - path: hairSystem1OutputCurves/curve618
+        weight: 1
+      - path: hairSystem1OutputCurves/curve621
+        weight: 1
+      - path: hairSystem1OutputCurves/curve624
+        weight: 1
+      - path: hairSystem1OutputCurves/curve627
+        weight: 1
+      - path: hairSystem1OutputCurves/curve630
+        weight: 1
+      - path: hairSystem1OutputCurves/curve633
+        weight: 1
+      - path: hairSystem1OutputCurves/curve636
+        weight: 1
+      - path: hairSystem1OutputCurves/curve639
+        weight: 1
+      - path: hairSystem1OutputCurves/curve642
+        weight: 1
+      - path: hairSystem1OutputCurves/curve645
+        weight: 1
+      - path: hairSystem1OutputCurves/curve648
+        weight: 1
+      - path: hairSystem1OutputCurves/curve651
+        weight: 1
+      - path: hairSystem1OutputCurves/curve654
+        weight: 1
+      - path: hairSystem1OutputCurves/curve657
+        weight: 1
+      - path: hairSystem1OutputCurves/curve660
+        weight: 1
+      - path: hairSystem1OutputCurves/curve663
+        weight: 1
+      - path: hairSystem1OutputCurves/curve666
+        weight: 1
+      - path: hairSystem1OutputCurves/curve669
+        weight: 1
+      - path: hairSystem1OutputCurves/curve672
+        weight: 1
+      - path: hairSystem1OutputCurves/curve675
+        weight: 1
+      - path: hairSystem1OutputCurves/curve678
+        weight: 1
+      - path: hairSystem1OutputCurves/curve681
+        weight: 1
+      - path: hairSystem1OutputCurves/curve684
+        weight: 1
+      - path: hairSystem1OutputCurves/curve687
+        weight: 1
+      - path: hairSystem1OutputCurves/curve690
+        weight: 1
+      - path: hairSystem1OutputCurves/curve693
+        weight: 1
+      - path: hairSystem1OutputCurves/curve696
+        weight: 1
+      - path: hairSystem1OutputCurves/curve699
+        weight: 1
+      - path: hairSystem1OutputCurves/curve702
+        weight: 1
+      - path: hairSystem1OutputCurves/curve705
+        weight: 1
+      - path: hairSystem1OutputCurves/curve708
+        weight: 1
+      - path: hairSystem1OutputCurves/curve711
+        weight: 1
+      - path: hairSystem1OutputCurves/curve714
+        weight: 1
+      - path: hairSystem1OutputCurves/curve717
+        weight: 1
+      - path: hairSystem1OutputCurves/curve720
+        weight: 1
+      - path: hairSystem1OutputCurves/curve723
+        weight: 1
+      - path: hairSystem1OutputCurves/curve726
+        weight: 1
+      - path: hairSystem1OutputCurves/curve729
+        weight: 1
+      - path: hairSystem1OutputCurves/curve732
+        weight: 1
+      - path: hairSystem1OutputCurves/curve735
+        weight: 1
+      - path: hairSystem1OutputCurves/curve738
+        weight: 1
+      - path: hairSystem1OutputCurves/curve741
+        weight: 1
+      - path: hairSystem1OutputCurves/curve744
+        weight: 1
+      - path: hairSystem1OutputCurves/curve747
+        weight: 1
+      - path: hairSystem1OutputCurves/curve750
+        weight: 1
+      - path: hairSystem1OutputCurves/curve753
+        weight: 1
+      - path: hairSystem1OutputCurves/curve756
+        weight: 1
+      - path: hairSystem1OutputCurves/curve759
+        weight: 1
+      - path: hairSystem1OutputCurves/curve762
+        weight: 1
+      - path: hairSystem1OutputCurves/curve765
+        weight: 1
+      - path: hairSystem1OutputCurves/curve768
+        weight: 1
+      - path: hairSystem1OutputCurves/curve771
+        weight: 1
+      - path: hairSystem1OutputCurves/curve774
+        weight: 1
+      - path: hairSystem1OutputCurves/curve777
+        weight: 1
+      - path: hairSystem1OutputCurves/curve780
+        weight: 1
+      - path: hairSystem1OutputCurves/curve783
+        weight: 1
+      - path: hairSystem1OutputCurves/curve786
+        weight: 1
+      - path: hairSystem1OutputCurves/curve789
+        weight: 1
+      - path: hairSystem1OutputCurves/curve792
+        weight: 1
+      - path: hairSystem1OutputCurves/curve795
+        weight: 1
+      - path: hairSystem1OutputCurves/curve798
+        weight: 1
+      - path: hairSystem1OutputCurves/curve801
+        weight: 1
+      - path: hairSystem1OutputCurves/curve804
+        weight: 1
+      - path: hairSystem1OutputCurves/curve807
+        weight: 1
+      - path: hairSystem1OutputCurves/curve810
+        weight: 1
+      - path: hairSystem1OutputCurves/curve813
+        weight: 1
+      - path: hairSystem1OutputCurves/curve816
+        weight: 1
+      - path: hairSystem1OutputCurves/curve819
+        weight: 1
+      - path: hairSystem1OutputCurves/curve822
+        weight: 1
+      - path: hairSystem1OutputCurves/curve825
+        weight: 1
+      - path: hairSystem1OutputCurves/curve828
+        weight: 1
+      - path: hairSystem1OutputCurves/curve831
+        weight: 1
+      - path: hairSystem1OutputCurves/curve834
+        weight: 1
+      - path: hairSystem1OutputCurves/curve837
+        weight: 1
+      - path: hairSystem1OutputCurves/curve840
+        weight: 1
+      - path: hairSystem1OutputCurves/curve843
+        weight: 1
+      - path: hairSystem1OutputCurves/curve846
+        weight: 1
+      - path: hairSystem1OutputCurves/curve849
+        weight: 1
+      - path: hairSystem1OutputCurves/curve852
+        weight: 1
+      - path: hairSystem1OutputCurves/curve855
+        weight: 1
+      - path: hairSystem1OutputCurves/curve858
+        weight: 1
+      - path: hairSystem1OutputCurves/curve861
+        weight: 1
+      - path: hairSystem1OutputCurves/curve864
+        weight: 1
+      - path: hairSystem1OutputCurves/curve867
+        weight: 1
+      - path: hairSystem1OutputCurves/curve870
+        weight: 1
+      - path: hairSystem1OutputCurves/curve873
+        weight: 1
+      - path: hairSystem1OutputCurves/curve876
+        weight: 1
+      - path: hairSystem1OutputCurves/curve879
+        weight: 1
+      - path: hairSystem1OutputCurves/curve882
+        weight: 1
+      - path: hairSystem1OutputCurves/curve885
+        weight: 1
+      - path: hairSystem1OutputCurves/curve888
+        weight: 1
+      - path: hairSystem1OutputCurves/curve891
+        weight: 1
+      - path: hairSystem1OutputCurves/curve894
+        weight: 1
+      - path: hairSystem1OutputCurves/curve897
+        weight: 1
+      - path: hairSystem1OutputCurves/curve900
+        weight: 1
+      - path: hairSystem1OutputCurves/curve903
+        weight: 1
+      - path: hairSystem1OutputCurves/curve906
+        weight: 1
+      - path: hairSystem1OutputCurves/curve909
+        weight: 1
+      - path: hairSystem1OutputCurves/curve912
+        weight: 1
+      - path: hairSystem1OutputCurves/curve915
+        weight: 1
+      - path: hairSystem1OutputCurves/curve918
+        weight: 1
+      - path: hairSystem1OutputCurves/curve921
+        weight: 1
+      - path: hairSystem1OutputCurves/curve924
+        weight: 1
+      - path: hairSystem1OutputCurves/curve927
+        weight: 1
+      - path: hairSystem1OutputCurves/curve930
+        weight: 1
+      - path: hairSystem1OutputCurves/curve933
+        weight: 1
+      - path: hairSystem1OutputCurves/curve936
+        weight: 1
+      - path: hairSystem1OutputCurves/curve939
+        weight: 1
+      - path: hairSystem1OutputCurves/curve942
+        weight: 1
+      - path: hairSystem1OutputCurves/curve945
+        weight: 1
+      - path: hairSystem1OutputCurves/curve948
+        weight: 1
+      - path: hairSystem1OutputCurves/curve951
+        weight: 1
+      - path: hairSystem1OutputCurves/curve954
+        weight: 1
+      - path: hairSystem1OutputCurves/curve957
+        weight: 1
+      - path: hairSystem1OutputCurves/curve960
+        weight: 1
+      - path: hairSystem1OutputCurves/curve963
+        weight: 1
+      - path: hairSystem1OutputCurves/curve966
+        weight: 1
+      - path: hairSystem1OutputCurves/curve969
+        weight: 1
+      - path: hairSystem1OutputCurves/curve972
+        weight: 1
+      - path: hairSystem1OutputCurves/curve975
+        weight: 1
+      - path: hairSystem1OutputCurves/curve978
+        weight: 1
+      - path: hairSystem1OutputCurves/curve981
+        weight: 1
+      - path: hairSystem1OutputCurves/curve984
+        weight: 1
+      - path: hairSystem1OutputCurves/curve986
+        weight: 1
+      - path: hairSystem1OutputCurves/curve988
+        weight: 1
+      - path: hairSystem1OutputCurves/curve990
+        weight: 1
+      - path: hairSystem1OutputCurves/curve992
+        weight: 1
+      - path: hairSystem1OutputCurves/curve994
+        weight: 1
+      - path: hairSystem1OutputCurves/curve996
+        weight: 1
+      - path: hairSystem1OutputCurves/curve998
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1000
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1002
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1004
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1006
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1008
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1010
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1012
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1014
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1016
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1018
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1020
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1022
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1024
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1026
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1028
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1030
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1032
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1034
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1036
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1038
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1040
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1042
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1044
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1046
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1048
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1050
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1052
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1054
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1056
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1058
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1060
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1062
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1064
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1066
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1068
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1070
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1072
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1074
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1076
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1078
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1080
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1082
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1084
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1086
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1088
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1090
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1092
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1094
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1096
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1098
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1100
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1102
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1104
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1106
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1108
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1110
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1112
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1114
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1116
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1118
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1120
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1122
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1124
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1126
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1128
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1130
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1132
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1134
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1136
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1138
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1140
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1142
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1144
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1146
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1148
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1150
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1152
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1154
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1156
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1158
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1160
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1162
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1164
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1166
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1168
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1170
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1172
+        weight: 1
+      - path: joint7
+        weight: 1
+      - path: joint7/joint8
+        weight: 1
+      - path: joint7/joint8/joint9
+        weight: 1
+      - path: joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20/joint21
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24/joint25
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24/joint25/joint26
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28/joint29
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32/joint33
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36/joint37
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36/joint37/joint38
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53/joint54
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53/joint54/joint55
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57/joint58
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57/joint58/joint59
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61/joint62
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64/joint65
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64/joint65/joint66
+        weight: 1
+      - path: joint7/joint39
+        weight: 1
+      - path: joint7/joint39/joint40
+        weight: 1
+      - path: joint7/joint39/joint40/joint41
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42/joint44
+        weight: 1
+      - path: joint7/joint67
+        weight: 1
+      - path: joint7/joint67/joint68
+        weight: 1
+      - path: joint7/joint67/joint68/joint69
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70/joint71
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70/joint72
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pfxHair1
+        weight: 1
+      - path: StraightLongHilight:hairAll
+        weight: 1
+      - path: StraightLongHilight:hairAll/StraightLongHilight:hairSystem1Follicles
+        weight: 1
+      - path: StraightLongHilight:hairAll/StraightLongHilight:hairSystem1Follicles/StraightLongHilight:hairLineFollicle3830
+        weight: 1
+      - path: transform2
+        weight: 1
+      - path: transform2/transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/group2
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/group6
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube3
+        weight: 1
+      - path: group7/pCube4
+        weight: 1
+      - path: group7/pCube6
+        weight: 1
+      - path: group7/pCube7
+        weight: 1
+      - path: group7/pCube10
+        weight: 1
+      - path: group7/pCube11
+        weight: 1
+      - path: group7/pTorus1
+        weight: 1
+      - path: hairSystem1Follicles
+        weight: 1
+      - path: hairSystem1OutputCurves
+        weight: 1
+      - path: hairSystem1OutputCurves/curve3
+        weight: 1
+      - path: hairSystem1OutputCurves/curve6
+        weight: 1
+      - path: hairSystem1OutputCurves/curve9
+        weight: 1
+      - path: hairSystem1OutputCurves/curve12
+        weight: 1
+      - path: hairSystem1OutputCurves/curve15
+        weight: 1
+      - path: hairSystem1OutputCurves/curve18
+        weight: 1
+      - path: hairSystem1OutputCurves/curve21
+        weight: 1
+      - path: hairSystem1OutputCurves/curve24
+        weight: 1
+      - path: hairSystem1OutputCurves/curve27
+        weight: 1
+      - path: hairSystem1OutputCurves/curve30
+        weight: 1
+      - path: hairSystem1OutputCurves/curve33
+        weight: 1
+      - path: hairSystem1OutputCurves/curve36
+        weight: 1
+      - path: hairSystem1OutputCurves/curve39
+        weight: 1
+      - path: hairSystem1OutputCurves/curve42
+        weight: 1
+      - path: hairSystem1OutputCurves/curve45
+        weight: 1
+      - path: hairSystem1OutputCurves/curve48
+        weight: 1
+      - path: hairSystem1OutputCurves/curve51
+        weight: 1
+      - path: hairSystem1OutputCurves/curve54
+        weight: 1
+      - path: hairSystem1OutputCurves/curve57
+        weight: 1
+      - path: hairSystem1OutputCurves/curve60
+        weight: 1
+      - path: hairSystem1OutputCurves/curve63
+        weight: 1
+      - path: hairSystem1OutputCurves/curve66
+        weight: 1
+      - path: hairSystem1OutputCurves/curve69
+        weight: 1
+      - path: hairSystem1OutputCurves/curve72
+        weight: 1
+      - path: hairSystem1OutputCurves/curve75
+        weight: 1
+      - path: hairSystem1OutputCurves/curve78
+        weight: 1
+      - path: hairSystem1OutputCurves/curve81
+        weight: 1
+      - path: hairSystem1OutputCurves/curve84
+        weight: 1
+      - path: hairSystem1OutputCurves/curve87
+        weight: 1
+      - path: hairSystem1OutputCurves/curve90
+        weight: 1
+      - path: hairSystem1OutputCurves/curve93
+        weight: 1
+      - path: hairSystem1OutputCurves/curve96
+        weight: 1
+      - path: hairSystem1OutputCurves/curve99
+        weight: 1
+      - path: hairSystem1OutputCurves/curve102
+        weight: 1
+      - path: hairSystem1OutputCurves/curve105
+        weight: 1
+      - path: hairSystem1OutputCurves/curve108
+        weight: 1
+      - path: hairSystem1OutputCurves/curve111
+        weight: 1
+      - path: hairSystem1OutputCurves/curve114
+        weight: 1
+      - path: hairSystem1OutputCurves/curve117
+        weight: 1
+      - path: hairSystem1OutputCurves/curve120
+        weight: 1
+      - path: hairSystem1OutputCurves/curve123
+        weight: 1
+      - path: hairSystem1OutputCurves/curve126
+        weight: 1
+      - path: hairSystem1OutputCurves/curve129
+        weight: 1
+      - path: hairSystem1OutputCurves/curve132
+        weight: 1
+      - path: hairSystem1OutputCurves/curve135
+        weight: 1
+      - path: hairSystem1OutputCurves/curve138
+        weight: 1
+      - path: hairSystem1OutputCurves/curve141
+        weight: 1
+      - path: hairSystem1OutputCurves/curve144
+        weight: 1
+      - path: hairSystem1OutputCurves/curve147
+        weight: 1
+      - path: hairSystem1OutputCurves/curve150
+        weight: 1
+      - path: hairSystem1OutputCurves/curve153
+        weight: 1
+      - path: hairSystem1OutputCurves/curve156
+        weight: 1
+      - path: hairSystem1OutputCurves/curve159
+        weight: 1
+      - path: hairSystem1OutputCurves/curve162
+        weight: 1
+      - path: hairSystem1OutputCurves/curve165
+        weight: 1
+      - path: hairSystem1OutputCurves/curve168
+        weight: 1
+      - path: hairSystem1OutputCurves/curve171
+        weight: 1
+      - path: hairSystem1OutputCurves/curve174
+        weight: 1
+      - path: hairSystem1OutputCurves/curve177
+        weight: 1
+      - path: hairSystem1OutputCurves/curve180
+        weight: 1
+      - path: hairSystem1OutputCurves/curve183
+        weight: 1
+      - path: hairSystem1OutputCurves/curve186
+        weight: 1
+      - path: hairSystem1OutputCurves/curve189
+        weight: 1
+      - path: hairSystem1OutputCurves/curve192
+        weight: 1
+      - path: hairSystem1OutputCurves/curve195
+        weight: 1
+      - path: hairSystem1OutputCurves/curve198
+        weight: 1
+      - path: hairSystem1OutputCurves/curve201
+        weight: 1
+      - path: hairSystem1OutputCurves/curve204
+        weight: 1
+      - path: hairSystem1OutputCurves/curve207
+        weight: 1
+      - path: hairSystem1OutputCurves/curve210
+        weight: 1
+      - path: hairSystem1OutputCurves/curve213
+        weight: 1
+      - path: hairSystem1OutputCurves/curve216
+        weight: 1
+      - path: hairSystem1OutputCurves/curve219
+        weight: 1
+      - path: hairSystem1OutputCurves/curve222
+        weight: 1
+      - path: hairSystem1OutputCurves/curve225
+        weight: 1
+      - path: hairSystem1OutputCurves/curve228
+        weight: 1
+      - path: hairSystem1OutputCurves/curve231
+        weight: 1
+      - path: hairSystem1OutputCurves/curve234
+        weight: 1
+      - path: hairSystem1OutputCurves/curve237
+        weight: 1
+      - path: hairSystem1OutputCurves/curve240
+        weight: 1
+      - path: hairSystem1OutputCurves/curve243
+        weight: 1
+      - path: hairSystem1OutputCurves/curve246
+        weight: 1
+      - path: hairSystem1OutputCurves/curve249
+        weight: 1
+      - path: hairSystem1OutputCurves/curve252
+        weight: 1
+      - path: hairSystem1OutputCurves/curve255
+        weight: 1
+      - path: hairSystem1OutputCurves/curve258
+        weight: 1
+      - path: hairSystem1OutputCurves/curve261
+        weight: 1
+      - path: hairSystem1OutputCurves/curve264
+        weight: 1
+      - path: hairSystem1OutputCurves/curve267
+        weight: 1
+      - path: hairSystem1OutputCurves/curve270
+        weight: 1
+      - path: hairSystem1OutputCurves/curve273
+        weight: 1
+      - path: hairSystem1OutputCurves/curve276
+        weight: 1
+      - path: hairSystem1OutputCurves/curve279
+        weight: 1
+      - path: hairSystem1OutputCurves/curve282
+        weight: 1
+      - path: hairSystem1OutputCurves/curve285
+        weight: 1
+      - path: hairSystem1OutputCurves/curve288
+        weight: 1
+      - path: hairSystem1OutputCurves/curve291
+        weight: 1
+      - path: hairSystem1OutputCurves/curve294
+        weight: 1
+      - path: hairSystem1OutputCurves/curve297
+        weight: 1
+      - path: hairSystem1OutputCurves/curve300
+        weight: 1
+      - path: hairSystem1OutputCurves/curve303
+        weight: 1
+      - path: hairSystem1OutputCurves/curve306
+        weight: 1
+      - path: hairSystem1OutputCurves/curve309
+        weight: 1
+      - path: hairSystem1OutputCurves/curve312
+        weight: 1
+      - path: hairSystem1OutputCurves/curve315
+        weight: 1
+      - path: hairSystem1OutputCurves/curve318
+        weight: 1
+      - path: hairSystem1OutputCurves/curve321
+        weight: 1
+      - path: hairSystem1OutputCurves/curve324
+        weight: 1
+      - path: hairSystem1OutputCurves/curve327
+        weight: 1
+      - path: hairSystem1OutputCurves/curve330
+        weight: 1
+      - path: hairSystem1OutputCurves/curve333
+        weight: 1
+      - path: hairSystem1OutputCurves/curve336
+        weight: 1
+      - path: hairSystem1OutputCurves/curve339
+        weight: 1
+      - path: hairSystem1OutputCurves/curve342
+        weight: 1
+      - path: hairSystem1OutputCurves/curve345
+        weight: 1
+      - path: hairSystem1OutputCurves/curve348
+        weight: 1
+      - path: hairSystem1OutputCurves/curve351
+        weight: 1
+      - path: hairSystem1OutputCurves/curve354
+        weight: 1
+      - path: hairSystem1OutputCurves/curve357
+        weight: 1
+      - path: hairSystem1OutputCurves/curve360
+        weight: 1
+      - path: hairSystem1OutputCurves/curve363
+        weight: 1
+      - path: hairSystem1OutputCurves/curve366
+        weight: 1
+      - path: hairSystem1OutputCurves/curve369
+        weight: 1
+      - path: hairSystem1OutputCurves/curve372
+        weight: 1
+      - path: hairSystem1OutputCurves/curve375
+        weight: 1
+      - path: hairSystem1OutputCurves/curve378
+        weight: 1
+      - path: hairSystem1OutputCurves/curve381
+        weight: 1
+      - path: hairSystem1OutputCurves/curve384
+        weight: 1
+      - path: hairSystem1OutputCurves/curve387
+        weight: 1
+      - path: hairSystem1OutputCurves/curve390
+        weight: 1
+      - path: hairSystem1OutputCurves/curve393
+        weight: 1
+      - path: hairSystem1OutputCurves/curve396
+        weight: 1
+      - path: hairSystem1OutputCurves/curve399
+        weight: 1
+      - path: hairSystem1OutputCurves/curve402
+        weight: 1
+      - path: hairSystem1OutputCurves/curve405
+        weight: 1
+      - path: hairSystem1OutputCurves/curve408
+        weight: 1
+      - path: hairSystem1OutputCurves/curve411
+        weight: 1
+      - path: hairSystem1OutputCurves/curve414
+        weight: 1
+      - path: hairSystem1OutputCurves/curve417
+        weight: 1
+      - path: hairSystem1OutputCurves/curve420
+        weight: 1
+      - path: hairSystem1OutputCurves/curve423
+        weight: 1
+      - path: hairSystem1OutputCurves/curve426
+        weight: 1
+      - path: hairSystem1OutputCurves/curve429
+        weight: 1
+      - path: hairSystem1OutputCurves/curve432
+        weight: 1
+      - path: hairSystem1OutputCurves/curve435
+        weight: 1
+      - path: hairSystem1OutputCurves/curve438
+        weight: 1
+      - path: hairSystem1OutputCurves/curve441
+        weight: 1
+      - path: hairSystem1OutputCurves/curve444
+        weight: 1
+      - path: hairSystem1OutputCurves/curve447
+        weight: 1
+      - path: hairSystem1OutputCurves/curve450
+        weight: 1
+      - path: hairSystem1OutputCurves/curve453
+        weight: 1
+      - path: hairSystem1OutputCurves/curve456
+        weight: 1
+      - path: hairSystem1OutputCurves/curve459
+        weight: 1
+      - path: hairSystem1OutputCurves/curve462
+        weight: 1
+      - path: hairSystem1OutputCurves/curve465
+        weight: 1
+      - path: hairSystem1OutputCurves/curve468
+        weight: 1
+      - path: hairSystem1OutputCurves/curve471
+        weight: 1
+      - path: hairSystem1OutputCurves/curve474
+        weight: 1
+      - path: hairSystem1OutputCurves/curve477
+        weight: 1
+      - path: hairSystem1OutputCurves/curve480
+        weight: 1
+      - path: hairSystem1OutputCurves/curve483
+        weight: 1
+      - path: hairSystem1OutputCurves/curve486
+        weight: 1
+      - path: hairSystem1OutputCurves/curve489
+        weight: 1
+      - path: hairSystem1OutputCurves/curve492
+        weight: 1
+      - path: hairSystem1OutputCurves/curve495
+        weight: 1
+      - path: hairSystem1OutputCurves/curve498
+        weight: 1
+      - path: hairSystem1OutputCurves/curve501
+        weight: 1
+      - path: hairSystem1OutputCurves/curve504
+        weight: 1
+      - path: hairSystem1OutputCurves/curve507
+        weight: 1
+      - path: hairSystem1OutputCurves/curve510
+        weight: 1
+      - path: hairSystem1OutputCurves/curve513
+        weight: 1
+      - path: hairSystem1OutputCurves/curve516
+        weight: 1
+      - path: hairSystem1OutputCurves/curve519
+        weight: 1
+      - path: hairSystem1OutputCurves/curve522
+        weight: 1
+      - path: hairSystem1OutputCurves/curve525
+        weight: 1
+      - path: hairSystem1OutputCurves/curve528
+        weight: 1
+      - path: hairSystem1OutputCurves/curve531
+        weight: 1
+      - path: hairSystem1OutputCurves/curve534
+        weight: 1
+      - path: hairSystem1OutputCurves/curve537
+        weight: 1
+      - path: hairSystem1OutputCurves/curve540
+        weight: 1
+      - path: hairSystem1OutputCurves/curve543
+        weight: 1
+      - path: hairSystem1OutputCurves/curve546
+        weight: 1
+      - path: hairSystem1OutputCurves/curve549
+        weight: 1
+      - path: hairSystem1OutputCurves/curve552
+        weight: 1
+      - path: hairSystem1OutputCurves/curve555
+        weight: 1
+      - path: hairSystem1OutputCurves/curve558
+        weight: 1
+      - path: hairSystem1OutputCurves/curve561
+        weight: 1
+      - path: hairSystem1OutputCurves/curve564
+        weight: 1
+      - path: hairSystem1OutputCurves/curve567
+        weight: 1
+      - path: hairSystem1OutputCurves/curve570
+        weight: 1
+      - path: hairSystem1OutputCurves/curve573
+        weight: 1
+      - path: hairSystem1OutputCurves/curve576
+        weight: 1
+      - path: hairSystem1OutputCurves/curve579
+        weight: 1
+      - path: hairSystem1OutputCurves/curve582
+        weight: 1
+      - path: hairSystem1OutputCurves/curve585
+        weight: 1
+      - path: hairSystem1OutputCurves/curve588
+        weight: 1
+      - path: hairSystem1OutputCurves/curve591
+        weight: 1
+      - path: hairSystem1OutputCurves/curve594
+        weight: 1
+      - path: hairSystem1OutputCurves/curve597
+        weight: 1
+      - path: hairSystem1OutputCurves/curve600
+        weight: 1
+      - path: hairSystem1OutputCurves/curve603
+        weight: 1
+      - path: hairSystem1OutputCurves/curve606
+        weight: 1
+      - path: hairSystem1OutputCurves/curve609
+        weight: 1
+      - path: hairSystem1OutputCurves/curve612
+        weight: 1
+      - path: hairSystem1OutputCurves/curve615
+        weight: 1
+      - path: hairSystem1OutputCurves/curve618
+        weight: 1
+      - path: hairSystem1OutputCurves/curve621
+        weight: 1
+      - path: hairSystem1OutputCurves/curve624
+        weight: 1
+      - path: hairSystem1OutputCurves/curve627
+        weight: 1
+      - path: hairSystem1OutputCurves/curve630
+        weight: 1
+      - path: hairSystem1OutputCurves/curve633
+        weight: 1
+      - path: hairSystem1OutputCurves/curve636
+        weight: 1
+      - path: hairSystem1OutputCurves/curve639
+        weight: 1
+      - path: hairSystem1OutputCurves/curve642
+        weight: 1
+      - path: hairSystem1OutputCurves/curve645
+        weight: 1
+      - path: hairSystem1OutputCurves/curve648
+        weight: 1
+      - path: hairSystem1OutputCurves/curve651
+        weight: 1
+      - path: hairSystem1OutputCurves/curve654
+        weight: 1
+      - path: hairSystem1OutputCurves/curve657
+        weight: 1
+      - path: hairSystem1OutputCurves/curve660
+        weight: 1
+      - path: hairSystem1OutputCurves/curve663
+        weight: 1
+      - path: hairSystem1OutputCurves/curve666
+        weight: 1
+      - path: hairSystem1OutputCurves/curve669
+        weight: 1
+      - path: hairSystem1OutputCurves/curve672
+        weight: 1
+      - path: hairSystem1OutputCurves/curve675
+        weight: 1
+      - path: hairSystem1OutputCurves/curve678
+        weight: 1
+      - path: hairSystem1OutputCurves/curve681
+        weight: 1
+      - path: hairSystem1OutputCurves/curve684
+        weight: 1
+      - path: hairSystem1OutputCurves/curve687
+        weight: 1
+      - path: hairSystem1OutputCurves/curve690
+        weight: 1
+      - path: hairSystem1OutputCurves/curve693
+        weight: 1
+      - path: hairSystem1OutputCurves/curve696
+        weight: 1
+      - path: hairSystem1OutputCurves/curve699
+        weight: 1
+      - path: hairSystem1OutputCurves/curve702
+        weight: 1
+      - path: hairSystem1OutputCurves/curve705
+        weight: 1
+      - path: hairSystem1OutputCurves/curve708
+        weight: 1
+      - path: hairSystem1OutputCurves/curve711
+        weight: 1
+      - path: hairSystem1OutputCurves/curve714
+        weight: 1
+      - path: hairSystem1OutputCurves/curve717
+        weight: 1
+      - path: hairSystem1OutputCurves/curve720
+        weight: 1
+      - path: hairSystem1OutputCurves/curve723
+        weight: 1
+      - path: hairSystem1OutputCurves/curve726
+        weight: 1
+      - path: hairSystem1OutputCurves/curve729
+        weight: 1
+      - path: hairSystem1OutputCurves/curve732
+        weight: 1
+      - path: hairSystem1OutputCurves/curve735
+        weight: 1
+      - path: hairSystem1OutputCurves/curve738
+        weight: 1
+      - path: hairSystem1OutputCurves/curve741
+        weight: 1
+      - path: hairSystem1OutputCurves/curve744
+        weight: 1
+      - path: hairSystem1OutputCurves/curve747
+        weight: 1
+      - path: hairSystem1OutputCurves/curve750
+        weight: 1
+      - path: hairSystem1OutputCurves/curve753
+        weight: 1
+      - path: hairSystem1OutputCurves/curve756
+        weight: 1
+      - path: hairSystem1OutputCurves/curve759
+        weight: 1
+      - path: hairSystem1OutputCurves/curve762
+        weight: 1
+      - path: hairSystem1OutputCurves/curve765
+        weight: 1
+      - path: hairSystem1OutputCurves/curve768
+        weight: 1
+      - path: hairSystem1OutputCurves/curve771
+        weight: 1
+      - path: hairSystem1OutputCurves/curve774
+        weight: 1
+      - path: hairSystem1OutputCurves/curve777
+        weight: 1
+      - path: hairSystem1OutputCurves/curve780
+        weight: 1
+      - path: hairSystem1OutputCurves/curve783
+        weight: 1
+      - path: hairSystem1OutputCurves/curve786
+        weight: 1
+      - path: hairSystem1OutputCurves/curve789
+        weight: 1
+      - path: hairSystem1OutputCurves/curve792
+        weight: 1
+      - path: hairSystem1OutputCurves/curve795
+        weight: 1
+      - path: hairSystem1OutputCurves/curve798
+        weight: 1
+      - path: hairSystem1OutputCurves/curve801
+        weight: 1
+      - path: hairSystem1OutputCurves/curve804
+        weight: 1
+      - path: hairSystem1OutputCurves/curve807
+        weight: 1
+      - path: hairSystem1OutputCurves/curve810
+        weight: 1
+      - path: hairSystem1OutputCurves/curve813
+        weight: 1
+      - path: hairSystem1OutputCurves/curve816
+        weight: 1
+      - path: hairSystem1OutputCurves/curve819
+        weight: 1
+      - path: hairSystem1OutputCurves/curve822
+        weight: 1
+      - path: hairSystem1OutputCurves/curve825
+        weight: 1
+      - path: hairSystem1OutputCurves/curve828
+        weight: 1
+      - path: hairSystem1OutputCurves/curve831
+        weight: 1
+      - path: hairSystem1OutputCurves/curve834
+        weight: 1
+      - path: hairSystem1OutputCurves/curve837
+        weight: 1
+      - path: hairSystem1OutputCurves/curve840
+        weight: 1
+      - path: hairSystem1OutputCurves/curve843
+        weight: 1
+      - path: hairSystem1OutputCurves/curve846
+        weight: 1
+      - path: hairSystem1OutputCurves/curve849
+        weight: 1
+      - path: hairSystem1OutputCurves/curve852
+        weight: 1
+      - path: hairSystem1OutputCurves/curve855
+        weight: 1
+      - path: hairSystem1OutputCurves/curve858
+        weight: 1
+      - path: hairSystem1OutputCurves/curve861
+        weight: 1
+      - path: hairSystem1OutputCurves/curve864
+        weight: 1
+      - path: hairSystem1OutputCurves/curve867
+        weight: 1
+      - path: hairSystem1OutputCurves/curve870
+        weight: 1
+      - path: hairSystem1OutputCurves/curve873
+        weight: 1
+      - path: hairSystem1OutputCurves/curve876
+        weight: 1
+      - path: hairSystem1OutputCurves/curve879
+        weight: 1
+      - path: hairSystem1OutputCurves/curve882
+        weight: 1
+      - path: hairSystem1OutputCurves/curve885
+        weight: 1
+      - path: hairSystem1OutputCurves/curve888
+        weight: 1
+      - path: hairSystem1OutputCurves/curve891
+        weight: 1
+      - path: hairSystem1OutputCurves/curve894
+        weight: 1
+      - path: hairSystem1OutputCurves/curve897
+        weight: 1
+      - path: hairSystem1OutputCurves/curve900
+        weight: 1
+      - path: hairSystem1OutputCurves/curve903
+        weight: 1
+      - path: hairSystem1OutputCurves/curve906
+        weight: 1
+      - path: hairSystem1OutputCurves/curve909
+        weight: 1
+      - path: hairSystem1OutputCurves/curve912
+        weight: 1
+      - path: hairSystem1OutputCurves/curve915
+        weight: 1
+      - path: hairSystem1OutputCurves/curve918
+        weight: 1
+      - path: hairSystem1OutputCurves/curve921
+        weight: 1
+      - path: hairSystem1OutputCurves/curve924
+        weight: 1
+      - path: hairSystem1OutputCurves/curve927
+        weight: 1
+      - path: hairSystem1OutputCurves/curve930
+        weight: 1
+      - path: hairSystem1OutputCurves/curve933
+        weight: 1
+      - path: hairSystem1OutputCurves/curve936
+        weight: 1
+      - path: hairSystem1OutputCurves/curve939
+        weight: 1
+      - path: hairSystem1OutputCurves/curve942
+        weight: 1
+      - path: hairSystem1OutputCurves/curve945
+        weight: 1
+      - path: hairSystem1OutputCurves/curve948
+        weight: 1
+      - path: hairSystem1OutputCurves/curve951
+        weight: 1
+      - path: hairSystem1OutputCurves/curve954
+        weight: 1
+      - path: hairSystem1OutputCurves/curve957
+        weight: 1
+      - path: hairSystem1OutputCurves/curve960
+        weight: 1
+      - path: hairSystem1OutputCurves/curve963
+        weight: 1
+      - path: hairSystem1OutputCurves/curve966
+        weight: 1
+      - path: hairSystem1OutputCurves/curve969
+        weight: 1
+      - path: hairSystem1OutputCurves/curve972
+        weight: 1
+      - path: hairSystem1OutputCurves/curve975
+        weight: 1
+      - path: hairSystem1OutputCurves/curve978
+        weight: 1
+      - path: hairSystem1OutputCurves/curve981
+        weight: 1
+      - path: hairSystem1OutputCurves/curve984
+        weight: 1
+      - path: hairSystem1OutputCurves/curve986
+        weight: 1
+      - path: hairSystem1OutputCurves/curve988
+        weight: 1
+      - path: hairSystem1OutputCurves/curve990
+        weight: 1
+      - path: hairSystem1OutputCurves/curve992
+        weight: 1
+      - path: hairSystem1OutputCurves/curve994
+        weight: 1
+      - path: hairSystem1OutputCurves/curve996
+        weight: 1
+      - path: hairSystem1OutputCurves/curve998
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1000
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1002
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1004
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1006
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1008
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1010
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1012
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1014
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1016
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1018
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1020
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1022
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1024
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1026
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1028
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1030
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1032
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1034
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1036
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1038
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1040
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1042
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1044
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1046
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1048
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1050
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1052
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1054
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1056
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1058
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1060
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1062
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1064
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1066
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1068
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1070
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1072
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1074
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1076
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1078
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1080
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1082
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1084
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1086
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1088
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1090
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1092
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1094
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1096
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1098
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1100
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1102
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1104
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1106
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1108
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1110
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1112
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1114
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1116
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1118
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1120
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1122
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1124
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1126
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1128
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1130
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1132
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1134
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1136
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1138
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1140
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1142
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1144
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1146
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1148
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1150
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1152
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1154
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1156
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1158
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1160
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1162
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1164
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1166
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1168
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1170
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1172
+        weight: 1
+      - path: joint7
+        weight: 1
+      - path: joint7/joint8
+        weight: 1
+      - path: joint7/joint8/joint9
+        weight: 1
+      - path: joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20/joint21
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24/joint25
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24/joint25/joint26
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28/joint29
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32/joint33
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36/joint37
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36/joint37/joint38
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53/joint54
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53/joint54/joint55
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57/joint58
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57/joint58/joint59
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61/joint62
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64/joint65
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64/joint65/joint66
+        weight: 1
+      - path: joint7/joint39
+        weight: 1
+      - path: joint7/joint39/joint40
+        weight: 1
+      - path: joint7/joint39/joint40/joint41
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42/joint44
+        weight: 1
+      - path: joint7/joint67
+        weight: 1
+      - path: joint7/joint67/joint68
+        weight: 1
+      - path: joint7/joint67/joint68/joint69
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70/joint71
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70/joint72
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pfxHair1
+        weight: 1
+      - path: StraightLongHilight:hairAll
+        weight: 1
+      - path: StraightLongHilight:hairAll/StraightLongHilight:hairSystem1Follicles
+        weight: 1
+      - path: StraightLongHilight:hairAll/StraightLongHilight:hairSystem1Follicles/StraightLongHilight:hairLineFollicle3830
+        weight: 1
+      - path: transform2
+        weight: 1
+      - path: transform2/transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/group2
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/group6
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube3
+        weight: 1
+      - path: group7/pCube4
+        weight: 1
+      - path: group7/pCube6
+        weight: 1
+      - path: group7/pCube7
+        weight: 1
+      - path: group7/pCube10
+        weight: 1
+      - path: group7/pCube11
+        weight: 1
+      - path: group7/pTorus1
+        weight: 1
+      - path: hairSystem1Follicles
+        weight: 1
+      - path: hairSystem1OutputCurves
+        weight: 1
+      - path: hairSystem1OutputCurves/curve3
+        weight: 1
+      - path: hairSystem1OutputCurves/curve6
+        weight: 1
+      - path: hairSystem1OutputCurves/curve9
+        weight: 1
+      - path: hairSystem1OutputCurves/curve12
+        weight: 1
+      - path: hairSystem1OutputCurves/curve15
+        weight: 1
+      - path: hairSystem1OutputCurves/curve18
+        weight: 1
+      - path: hairSystem1OutputCurves/curve21
+        weight: 1
+      - path: hairSystem1OutputCurves/curve24
+        weight: 1
+      - path: hairSystem1OutputCurves/curve27
+        weight: 1
+      - path: hairSystem1OutputCurves/curve30
+        weight: 1
+      - path: hairSystem1OutputCurves/curve33
+        weight: 1
+      - path: hairSystem1OutputCurves/curve36
+        weight: 1
+      - path: hairSystem1OutputCurves/curve39
+        weight: 1
+      - path: hairSystem1OutputCurves/curve42
+        weight: 1
+      - path: hairSystem1OutputCurves/curve45
+        weight: 1
+      - path: hairSystem1OutputCurves/curve48
+        weight: 1
+      - path: hairSystem1OutputCurves/curve51
+        weight: 1
+      - path: hairSystem1OutputCurves/curve54
+        weight: 1
+      - path: hairSystem1OutputCurves/curve57
+        weight: 1
+      - path: hairSystem1OutputCurves/curve60
+        weight: 1
+      - path: hairSystem1OutputCurves/curve63
+        weight: 1
+      - path: hairSystem1OutputCurves/curve66
+        weight: 1
+      - path: hairSystem1OutputCurves/curve69
+        weight: 1
+      - path: hairSystem1OutputCurves/curve72
+        weight: 1
+      - path: hairSystem1OutputCurves/curve75
+        weight: 1
+      - path: hairSystem1OutputCurves/curve78
+        weight: 1
+      - path: hairSystem1OutputCurves/curve81
+        weight: 1
+      - path: hairSystem1OutputCurves/curve84
+        weight: 1
+      - path: hairSystem1OutputCurves/curve87
+        weight: 1
+      - path: hairSystem1OutputCurves/curve90
+        weight: 1
+      - path: hairSystem1OutputCurves/curve93
+        weight: 1
+      - path: hairSystem1OutputCurves/curve96
+        weight: 1
+      - path: hairSystem1OutputCurves/curve99
+        weight: 1
+      - path: hairSystem1OutputCurves/curve102
+        weight: 1
+      - path: hairSystem1OutputCurves/curve105
+        weight: 1
+      - path: hairSystem1OutputCurves/curve108
+        weight: 1
+      - path: hairSystem1OutputCurves/curve111
+        weight: 1
+      - path: hairSystem1OutputCurves/curve114
+        weight: 1
+      - path: hairSystem1OutputCurves/curve117
+        weight: 1
+      - path: hairSystem1OutputCurves/curve120
+        weight: 1
+      - path: hairSystem1OutputCurves/curve123
+        weight: 1
+      - path: hairSystem1OutputCurves/curve126
+        weight: 1
+      - path: hairSystem1OutputCurves/curve129
+        weight: 1
+      - path: hairSystem1OutputCurves/curve132
+        weight: 1
+      - path: hairSystem1OutputCurves/curve135
+        weight: 1
+      - path: hairSystem1OutputCurves/curve138
+        weight: 1
+      - path: hairSystem1OutputCurves/curve141
+        weight: 1
+      - path: hairSystem1OutputCurves/curve144
+        weight: 1
+      - path: hairSystem1OutputCurves/curve147
+        weight: 1
+      - path: hairSystem1OutputCurves/curve150
+        weight: 1
+      - path: hairSystem1OutputCurves/curve153
+        weight: 1
+      - path: hairSystem1OutputCurves/curve156
+        weight: 1
+      - path: hairSystem1OutputCurves/curve159
+        weight: 1
+      - path: hairSystem1OutputCurves/curve162
+        weight: 1
+      - path: hairSystem1OutputCurves/curve165
+        weight: 1
+      - path: hairSystem1OutputCurves/curve168
+        weight: 1
+      - path: hairSystem1OutputCurves/curve171
+        weight: 1
+      - path: hairSystem1OutputCurves/curve174
+        weight: 1
+      - path: hairSystem1OutputCurves/curve177
+        weight: 1
+      - path: hairSystem1OutputCurves/curve180
+        weight: 1
+      - path: hairSystem1OutputCurves/curve183
+        weight: 1
+      - path: hairSystem1OutputCurves/curve186
+        weight: 1
+      - path: hairSystem1OutputCurves/curve189
+        weight: 1
+      - path: hairSystem1OutputCurves/curve192
+        weight: 1
+      - path: hairSystem1OutputCurves/curve195
+        weight: 1
+      - path: hairSystem1OutputCurves/curve198
+        weight: 1
+      - path: hairSystem1OutputCurves/curve201
+        weight: 1
+      - path: hairSystem1OutputCurves/curve204
+        weight: 1
+      - path: hairSystem1OutputCurves/curve207
+        weight: 1
+      - path: hairSystem1OutputCurves/curve210
+        weight: 1
+      - path: hairSystem1OutputCurves/curve213
+        weight: 1
+      - path: hairSystem1OutputCurves/curve216
+        weight: 1
+      - path: hairSystem1OutputCurves/curve219
+        weight: 1
+      - path: hairSystem1OutputCurves/curve222
+        weight: 1
+      - path: hairSystem1OutputCurves/curve225
+        weight: 1
+      - path: hairSystem1OutputCurves/curve228
+        weight: 1
+      - path: hairSystem1OutputCurves/curve231
+        weight: 1
+      - path: hairSystem1OutputCurves/curve234
+        weight: 1
+      - path: hairSystem1OutputCurves/curve237
+        weight: 1
+      - path: hairSystem1OutputCurves/curve240
+        weight: 1
+      - path: hairSystem1OutputCurves/curve243
+        weight: 1
+      - path: hairSystem1OutputCurves/curve246
+        weight: 1
+      - path: hairSystem1OutputCurves/curve249
+        weight: 1
+      - path: hairSystem1OutputCurves/curve252
+        weight: 1
+      - path: hairSystem1OutputCurves/curve255
+        weight: 1
+      - path: hairSystem1OutputCurves/curve258
+        weight: 1
+      - path: hairSystem1OutputCurves/curve261
+        weight: 1
+      - path: hairSystem1OutputCurves/curve264
+        weight: 1
+      - path: hairSystem1OutputCurves/curve267
+        weight: 1
+      - path: hairSystem1OutputCurves/curve270
+        weight: 1
+      - path: hairSystem1OutputCurves/curve273
+        weight: 1
+      - path: hairSystem1OutputCurves/curve276
+        weight: 1
+      - path: hairSystem1OutputCurves/curve279
+        weight: 1
+      - path: hairSystem1OutputCurves/curve282
+        weight: 1
+      - path: hairSystem1OutputCurves/curve285
+        weight: 1
+      - path: hairSystem1OutputCurves/curve288
+        weight: 1
+      - path: hairSystem1OutputCurves/curve291
+        weight: 1
+      - path: hairSystem1OutputCurves/curve294
+        weight: 1
+      - path: hairSystem1OutputCurves/curve297
+        weight: 1
+      - path: hairSystem1OutputCurves/curve300
+        weight: 1
+      - path: hairSystem1OutputCurves/curve303
+        weight: 1
+      - path: hairSystem1OutputCurves/curve306
+        weight: 1
+      - path: hairSystem1OutputCurves/curve309
+        weight: 1
+      - path: hairSystem1OutputCurves/curve312
+        weight: 1
+      - path: hairSystem1OutputCurves/curve315
+        weight: 1
+      - path: hairSystem1OutputCurves/curve318
+        weight: 1
+      - path: hairSystem1OutputCurves/curve321
+        weight: 1
+      - path: hairSystem1OutputCurves/curve324
+        weight: 1
+      - path: hairSystem1OutputCurves/curve327
+        weight: 1
+      - path: hairSystem1OutputCurves/curve330
+        weight: 1
+      - path: hairSystem1OutputCurves/curve333
+        weight: 1
+      - path: hairSystem1OutputCurves/curve336
+        weight: 1
+      - path: hairSystem1OutputCurves/curve339
+        weight: 1
+      - path: hairSystem1OutputCurves/curve342
+        weight: 1
+      - path: hairSystem1OutputCurves/curve345
+        weight: 1
+      - path: hairSystem1OutputCurves/curve348
+        weight: 1
+      - path: hairSystem1OutputCurves/curve351
+        weight: 1
+      - path: hairSystem1OutputCurves/curve354
+        weight: 1
+      - path: hairSystem1OutputCurves/curve357
+        weight: 1
+      - path: hairSystem1OutputCurves/curve360
+        weight: 1
+      - path: hairSystem1OutputCurves/curve363
+        weight: 1
+      - path: hairSystem1OutputCurves/curve366
+        weight: 1
+      - path: hairSystem1OutputCurves/curve369
+        weight: 1
+      - path: hairSystem1OutputCurves/curve372
+        weight: 1
+      - path: hairSystem1OutputCurves/curve375
+        weight: 1
+      - path: hairSystem1OutputCurves/curve378
+        weight: 1
+      - path: hairSystem1OutputCurves/curve381
+        weight: 1
+      - path: hairSystem1OutputCurves/curve384
+        weight: 1
+      - path: hairSystem1OutputCurves/curve387
+        weight: 1
+      - path: hairSystem1OutputCurves/curve390
+        weight: 1
+      - path: hairSystem1OutputCurves/curve393
+        weight: 1
+      - path: hairSystem1OutputCurves/curve396
+        weight: 1
+      - path: hairSystem1OutputCurves/curve399
+        weight: 1
+      - path: hairSystem1OutputCurves/curve402
+        weight: 1
+      - path: hairSystem1OutputCurves/curve405
+        weight: 1
+      - path: hairSystem1OutputCurves/curve408
+        weight: 1
+      - path: hairSystem1OutputCurves/curve411
+        weight: 1
+      - path: hairSystem1OutputCurves/curve414
+        weight: 1
+      - path: hairSystem1OutputCurves/curve417
+        weight: 1
+      - path: hairSystem1OutputCurves/curve420
+        weight: 1
+      - path: hairSystem1OutputCurves/curve423
+        weight: 1
+      - path: hairSystem1OutputCurves/curve426
+        weight: 1
+      - path: hairSystem1OutputCurves/curve429
+        weight: 1
+      - path: hairSystem1OutputCurves/curve432
+        weight: 1
+      - path: hairSystem1OutputCurves/curve435
+        weight: 1
+      - path: hairSystem1OutputCurves/curve438
+        weight: 1
+      - path: hairSystem1OutputCurves/curve441
+        weight: 1
+      - path: hairSystem1OutputCurves/curve444
+        weight: 1
+      - path: hairSystem1OutputCurves/curve447
+        weight: 1
+      - path: hairSystem1OutputCurves/curve450
+        weight: 1
+      - path: hairSystem1OutputCurves/curve453
+        weight: 1
+      - path: hairSystem1OutputCurves/curve456
+        weight: 1
+      - path: hairSystem1OutputCurves/curve459
+        weight: 1
+      - path: hairSystem1OutputCurves/curve462
+        weight: 1
+      - path: hairSystem1OutputCurves/curve465
+        weight: 1
+      - path: hairSystem1OutputCurves/curve468
+        weight: 1
+      - path: hairSystem1OutputCurves/curve471
+        weight: 1
+      - path: hairSystem1OutputCurves/curve474
+        weight: 1
+      - path: hairSystem1OutputCurves/curve477
+        weight: 1
+      - path: hairSystem1OutputCurves/curve480
+        weight: 1
+      - path: hairSystem1OutputCurves/curve483
+        weight: 1
+      - path: hairSystem1OutputCurves/curve486
+        weight: 1
+      - path: hairSystem1OutputCurves/curve489
+        weight: 1
+      - path: hairSystem1OutputCurves/curve492
+        weight: 1
+      - path: hairSystem1OutputCurves/curve495
+        weight: 1
+      - path: hairSystem1OutputCurves/curve498
+        weight: 1
+      - path: hairSystem1OutputCurves/curve501
+        weight: 1
+      - path: hairSystem1OutputCurves/curve504
+        weight: 1
+      - path: hairSystem1OutputCurves/curve507
+        weight: 1
+      - path: hairSystem1OutputCurves/curve510
+        weight: 1
+      - path: hairSystem1OutputCurves/curve513
+        weight: 1
+      - path: hairSystem1OutputCurves/curve516
+        weight: 1
+      - path: hairSystem1OutputCurves/curve519
+        weight: 1
+      - path: hairSystem1OutputCurves/curve522
+        weight: 1
+      - path: hairSystem1OutputCurves/curve525
+        weight: 1
+      - path: hairSystem1OutputCurves/curve528
+        weight: 1
+      - path: hairSystem1OutputCurves/curve531
+        weight: 1
+      - path: hairSystem1OutputCurves/curve534
+        weight: 1
+      - path: hairSystem1OutputCurves/curve537
+        weight: 1
+      - path: hairSystem1OutputCurves/curve540
+        weight: 1
+      - path: hairSystem1OutputCurves/curve543
+        weight: 1
+      - path: hairSystem1OutputCurves/curve546
+        weight: 1
+      - path: hairSystem1OutputCurves/curve549
+        weight: 1
+      - path: hairSystem1OutputCurves/curve552
+        weight: 1
+      - path: hairSystem1OutputCurves/curve555
+        weight: 1
+      - path: hairSystem1OutputCurves/curve558
+        weight: 1
+      - path: hairSystem1OutputCurves/curve561
+        weight: 1
+      - path: hairSystem1OutputCurves/curve564
+        weight: 1
+      - path: hairSystem1OutputCurves/curve567
+        weight: 1
+      - path: hairSystem1OutputCurves/curve570
+        weight: 1
+      - path: hairSystem1OutputCurves/curve573
+        weight: 1
+      - path: hairSystem1OutputCurves/curve576
+        weight: 1
+      - path: hairSystem1OutputCurves/curve579
+        weight: 1
+      - path: hairSystem1OutputCurves/curve582
+        weight: 1
+      - path: hairSystem1OutputCurves/curve585
+        weight: 1
+      - path: hairSystem1OutputCurves/curve588
+        weight: 1
+      - path: hairSystem1OutputCurves/curve591
+        weight: 1
+      - path: hairSystem1OutputCurves/curve594
+        weight: 1
+      - path: hairSystem1OutputCurves/curve597
+        weight: 1
+      - path: hairSystem1OutputCurves/curve600
+        weight: 1
+      - path: hairSystem1OutputCurves/curve603
+        weight: 1
+      - path: hairSystem1OutputCurves/curve606
+        weight: 1
+      - path: hairSystem1OutputCurves/curve609
+        weight: 1
+      - path: hairSystem1OutputCurves/curve612
+        weight: 1
+      - path: hairSystem1OutputCurves/curve615
+        weight: 1
+      - path: hairSystem1OutputCurves/curve618
+        weight: 1
+      - path: hairSystem1OutputCurves/curve621
+        weight: 1
+      - path: hairSystem1OutputCurves/curve624
+        weight: 1
+      - path: hairSystem1OutputCurves/curve627
+        weight: 1
+      - path: hairSystem1OutputCurves/curve630
+        weight: 1
+      - path: hairSystem1OutputCurves/curve633
+        weight: 1
+      - path: hairSystem1OutputCurves/curve636
+        weight: 1
+      - path: hairSystem1OutputCurves/curve639
+        weight: 1
+      - path: hairSystem1OutputCurves/curve642
+        weight: 1
+      - path: hairSystem1OutputCurves/curve645
+        weight: 1
+      - path: hairSystem1OutputCurves/curve648
+        weight: 1
+      - path: hairSystem1OutputCurves/curve651
+        weight: 1
+      - path: hairSystem1OutputCurves/curve654
+        weight: 1
+      - path: hairSystem1OutputCurves/curve657
+        weight: 1
+      - path: hairSystem1OutputCurves/curve660
+        weight: 1
+      - path: hairSystem1OutputCurves/curve663
+        weight: 1
+      - path: hairSystem1OutputCurves/curve666
+        weight: 1
+      - path: hairSystem1OutputCurves/curve669
+        weight: 1
+      - path: hairSystem1OutputCurves/curve672
+        weight: 1
+      - path: hairSystem1OutputCurves/curve675
+        weight: 1
+      - path: hairSystem1OutputCurves/curve678
+        weight: 1
+      - path: hairSystem1OutputCurves/curve681
+        weight: 1
+      - path: hairSystem1OutputCurves/curve684
+        weight: 1
+      - path: hairSystem1OutputCurves/curve687
+        weight: 1
+      - path: hairSystem1OutputCurves/curve690
+        weight: 1
+      - path: hairSystem1OutputCurves/curve693
+        weight: 1
+      - path: hairSystem1OutputCurves/curve696
+        weight: 1
+      - path: hairSystem1OutputCurves/curve699
+        weight: 1
+      - path: hairSystem1OutputCurves/curve702
+        weight: 1
+      - path: hairSystem1OutputCurves/curve705
+        weight: 1
+      - path: hairSystem1OutputCurves/curve708
+        weight: 1
+      - path: hairSystem1OutputCurves/curve711
+        weight: 1
+      - path: hairSystem1OutputCurves/curve714
+        weight: 1
+      - path: hairSystem1OutputCurves/curve717
+        weight: 1
+      - path: hairSystem1OutputCurves/curve720
+        weight: 1
+      - path: hairSystem1OutputCurves/curve723
+        weight: 1
+      - path: hairSystem1OutputCurves/curve726
+        weight: 1
+      - path: hairSystem1OutputCurves/curve729
+        weight: 1
+      - path: hairSystem1OutputCurves/curve732
+        weight: 1
+      - path: hairSystem1OutputCurves/curve735
+        weight: 1
+      - path: hairSystem1OutputCurves/curve738
+        weight: 1
+      - path: hairSystem1OutputCurves/curve741
+        weight: 1
+      - path: hairSystem1OutputCurves/curve744
+        weight: 1
+      - path: hairSystem1OutputCurves/curve747
+        weight: 1
+      - path: hairSystem1OutputCurves/curve750
+        weight: 1
+      - path: hairSystem1OutputCurves/curve753
+        weight: 1
+      - path: hairSystem1OutputCurves/curve756
+        weight: 1
+      - path: hairSystem1OutputCurves/curve759
+        weight: 1
+      - path: hairSystem1OutputCurves/curve762
+        weight: 1
+      - path: hairSystem1OutputCurves/curve765
+        weight: 1
+      - path: hairSystem1OutputCurves/curve768
+        weight: 1
+      - path: hairSystem1OutputCurves/curve771
+        weight: 1
+      - path: hairSystem1OutputCurves/curve774
+        weight: 1
+      - path: hairSystem1OutputCurves/curve777
+        weight: 1
+      - path: hairSystem1OutputCurves/curve780
+        weight: 1
+      - path: hairSystem1OutputCurves/curve783
+        weight: 1
+      - path: hairSystem1OutputCurves/curve786
+        weight: 1
+      - path: hairSystem1OutputCurves/curve789
+        weight: 1
+      - path: hairSystem1OutputCurves/curve792
+        weight: 1
+      - path: hairSystem1OutputCurves/curve795
+        weight: 1
+      - path: hairSystem1OutputCurves/curve798
+        weight: 1
+      - path: hairSystem1OutputCurves/curve801
+        weight: 1
+      - path: hairSystem1OutputCurves/curve804
+        weight: 1
+      - path: hairSystem1OutputCurves/curve807
+        weight: 1
+      - path: hairSystem1OutputCurves/curve810
+        weight: 1
+      - path: hairSystem1OutputCurves/curve813
+        weight: 1
+      - path: hairSystem1OutputCurves/curve816
+        weight: 1
+      - path: hairSystem1OutputCurves/curve819
+        weight: 1
+      - path: hairSystem1OutputCurves/curve822
+        weight: 1
+      - path: hairSystem1OutputCurves/curve825
+        weight: 1
+      - path: hairSystem1OutputCurves/curve828
+        weight: 1
+      - path: hairSystem1OutputCurves/curve831
+        weight: 1
+      - path: hairSystem1OutputCurves/curve834
+        weight: 1
+      - path: hairSystem1OutputCurves/curve837
+        weight: 1
+      - path: hairSystem1OutputCurves/curve840
+        weight: 1
+      - path: hairSystem1OutputCurves/curve843
+        weight: 1
+      - path: hairSystem1OutputCurves/curve846
+        weight: 1
+      - path: hairSystem1OutputCurves/curve849
+        weight: 1
+      - path: hairSystem1OutputCurves/curve852
+        weight: 1
+      - path: hairSystem1OutputCurves/curve855
+        weight: 1
+      - path: hairSystem1OutputCurves/curve858
+        weight: 1
+      - path: hairSystem1OutputCurves/curve861
+        weight: 1
+      - path: hairSystem1OutputCurves/curve864
+        weight: 1
+      - path: hairSystem1OutputCurves/curve867
+        weight: 1
+      - path: hairSystem1OutputCurves/curve870
+        weight: 1
+      - path: hairSystem1OutputCurves/curve873
+        weight: 1
+      - path: hairSystem1OutputCurves/curve876
+        weight: 1
+      - path: hairSystem1OutputCurves/curve879
+        weight: 1
+      - path: hairSystem1OutputCurves/curve882
+        weight: 1
+      - path: hairSystem1OutputCurves/curve885
+        weight: 1
+      - path: hairSystem1OutputCurves/curve888
+        weight: 1
+      - path: hairSystem1OutputCurves/curve891
+        weight: 1
+      - path: hairSystem1OutputCurves/curve894
+        weight: 1
+      - path: hairSystem1OutputCurves/curve897
+        weight: 1
+      - path: hairSystem1OutputCurves/curve900
+        weight: 1
+      - path: hairSystem1OutputCurves/curve903
+        weight: 1
+      - path: hairSystem1OutputCurves/curve906
+        weight: 1
+      - path: hairSystem1OutputCurves/curve909
+        weight: 1
+      - path: hairSystem1OutputCurves/curve912
+        weight: 1
+      - path: hairSystem1OutputCurves/curve915
+        weight: 1
+      - path: hairSystem1OutputCurves/curve918
+        weight: 1
+      - path: hairSystem1OutputCurves/curve921
+        weight: 1
+      - path: hairSystem1OutputCurves/curve924
+        weight: 1
+      - path: hairSystem1OutputCurves/curve927
+        weight: 1
+      - path: hairSystem1OutputCurves/curve930
+        weight: 1
+      - path: hairSystem1OutputCurves/curve933
+        weight: 1
+      - path: hairSystem1OutputCurves/curve936
+        weight: 1
+      - path: hairSystem1OutputCurves/curve939
+        weight: 1
+      - path: hairSystem1OutputCurves/curve942
+        weight: 1
+      - path: hairSystem1OutputCurves/curve945
+        weight: 1
+      - path: hairSystem1OutputCurves/curve948
+        weight: 1
+      - path: hairSystem1OutputCurves/curve951
+        weight: 1
+      - path: hairSystem1OutputCurves/curve954
+        weight: 1
+      - path: hairSystem1OutputCurves/curve957
+        weight: 1
+      - path: hairSystem1OutputCurves/curve960
+        weight: 1
+      - path: hairSystem1OutputCurves/curve963
+        weight: 1
+      - path: hairSystem1OutputCurves/curve966
+        weight: 1
+      - path: hairSystem1OutputCurves/curve969
+        weight: 1
+      - path: hairSystem1OutputCurves/curve972
+        weight: 1
+      - path: hairSystem1OutputCurves/curve975
+        weight: 1
+      - path: hairSystem1OutputCurves/curve978
+        weight: 1
+      - path: hairSystem1OutputCurves/curve981
+        weight: 1
+      - path: hairSystem1OutputCurves/curve984
+        weight: 1
+      - path: hairSystem1OutputCurves/curve986
+        weight: 1
+      - path: hairSystem1OutputCurves/curve988
+        weight: 1
+      - path: hairSystem1OutputCurves/curve990
+        weight: 1
+      - path: hairSystem1OutputCurves/curve992
+        weight: 1
+      - path: hairSystem1OutputCurves/curve994
+        weight: 1
+      - path: hairSystem1OutputCurves/curve996
+        weight: 1
+      - path: hairSystem1OutputCurves/curve998
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1000
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1002
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1004
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1006
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1008
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1010
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1012
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1014
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1016
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1018
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1020
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1022
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1024
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1026
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1028
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1030
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1032
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1034
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1036
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1038
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1040
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1042
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1044
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1046
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1048
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1050
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1052
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1054
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1056
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1058
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1060
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1062
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1064
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1066
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1068
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1070
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1072
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1074
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1076
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1078
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1080
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1082
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1084
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1086
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1088
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1090
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1092
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1094
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1096
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1098
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1100
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1102
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1104
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1106
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1108
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1110
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1112
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1114
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1116
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1118
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1120
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1122
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1124
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1126
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1128
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1130
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1132
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1134
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1136
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1138
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1140
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1142
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1144
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1146
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1148
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1150
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1152
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1154
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1156
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1158
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1160
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1162
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1164
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1166
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1168
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1170
+        weight: 1
+      - path: hairSystem1OutputCurves/curve1172
+        weight: 1
+      - path: joint7
+        weight: 1
+      - path: joint7/joint8
+        weight: 1
+      - path: joint7/joint8/joint9
+        weight: 1
+      - path: joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20/joint21
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24/joint25
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint23/joint24/joint25/joint26
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28/joint29
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32/joint33
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36/joint37
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint4/joint5/joint6/joint36/joint37/joint38
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53/joint54
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint52/joint53/joint54/joint55
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57/joint58
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint56/joint57/joint58/joint59
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61/joint62
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64/joint65
+        weight: 1
+      - path: joint7/joint8/joint9/joint10/joint11/joint12/joint45/joint46/joint47/joint64/joint65/joint66
+        weight: 1
+      - path: joint7/joint39
+        weight: 1
+      - path: joint7/joint39/joint40
+        weight: 1
+      - path: joint7/joint39/joint40/joint41
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint7/joint39/joint40/joint41/joint42/joint44
+        weight: 1
+      - path: joint7/joint67
+        weight: 1
+      - path: joint7/joint67/joint68
+        weight: 1
+      - path: joint7/joint67/joint68/joint69
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70/joint71
+        weight: 1
+      - path: joint7/joint67/joint68/joint69/joint70/joint72
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pfxHair1
+        weight: 1
+      - path: StraightLongHilight:hairAll
+        weight: 1
+      - path: StraightLongHilight:hairAll/StraightLongHilight:hairSystem1Follicles
+        weight: 1
+      - path: StraightLongHilight:hairAll/StraightLongHilight:hairSystem1Follicles/StraightLongHilight:hairLineFollicle3830
+        weight: 1
+      - path: transform2
+        weight: 1
+      - path: transform2/transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <scene sceneName="YunLingZongSpace">
+    <gameObject objectName="hills (1)" objectAsset="hills (1)">
+      <transform>
+        <position x="-1.1" y="-67.3" z="116.5" />
+        <rotation x="0" y="192.9332" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="Directional Light" objectAsset="Directional Light">
+      <transform>
+        <position x="0" y="3" z="0" />
+        <rotation x="50" y="330" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="trees" objectAsset="trees">
+      <transform>
+        <position x="40.38367" y="-39.03818" z="172.6879" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="YunLingZongTerrain" objectAsset="YunLingZongTerrain">
+      <transform>
+        <position x="-14.108" y="0" z="0" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1.078001" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="glass" objectAsset="glass">
+      <transform>
+        <position x="40.38367" y="-39.03818" z="172.6879" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="hills" objectAsset="hills">
+      <transform>
+        <position x="77.89124" y="-71.38298" z="58.36269" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="buildings" objectAsset="buildings">
+      <transform>
+        <position x="81.40456" y="0.9682659" z="53.44087" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+    <gameObject objectName="stones" objectAsset="stones">
+      <transform>
+        <position x="40.38367" y="-39.03818" z="172.6879" />
+        <rotation x="0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+    </gameObject>
+  </scene>
+</root>

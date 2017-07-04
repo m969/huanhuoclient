@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: 374d330f7dd313d4d94ae8cbea89fc58
+timeCreated: 1478189395
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HPBall_Glass_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HPBall_Glass_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 58
+        width: 396
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: -171}
+        - {x: 130, y: -156}
+        - {x: 156, y: -130}
+        - {x: 175, y: -103}
+        - {x: 188, y: -76}
+        - {x: 194, y: -54}
+        - {x: 198, y: -36}
+        - {x: 198, y: 37}
+        - {x: 197, y: 41}
+        - {x: 193, y: 62}
+        - {x: 175, y: 103}
+        - {x: 165, y: 117}
+        - {x: 148, y: 138}
+        - {x: 130, y: 156}
+        - {x: 103, y: 174}
+        - {x: 80, y: 185}
+        - {x: 62, y: 193}
+        - {x: 36, y: 198}
+        - {x: -35, y: 198}
+        - {x: -41, y: 197}
+        - {x: -50, y: 195}
+        - {x: -62, y: 192}
+        - {x: -80, y: 185}
+        - {x: -108, y: 171}
+        - {x: -130, y: 155}
+        - {x: -148, y: 138}
+        - {x: -155, y: 130}
+        - {x: -175, y: 103}
+        - {x: -188, y: 76}
+        - {x: -194, y: 54}
+        - {x: -197, y: 41}
+        - {x: -198, y: 35}
+        - {x: -198, y: -36}
+        - {x: -197, y: -41}
+        - {x: -192, y: -62}
+        - {x: -187, y: -75}
+        - {x: -174, y: -103}
+        - {x: -165, y: -117}
+        - {x: -155, y: -130}
+        - {x: -138, y: -148}
+        - {x: -117, y: -165}
+        - {x: -103, y: -174}
+        - {x: -70, y: -190}
+        - {x: -61, y: -193}
+        - {x: -36, y: -198}
+        - {x: 37, y: -198}
+        - {x: 41, y: -197}
+        - {x: 62, y: -193}
+        - {x: 80, y: -185}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

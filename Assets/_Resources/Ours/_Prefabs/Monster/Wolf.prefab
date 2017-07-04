@@ -3848,6 +3848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe306b901f47bc4ebea3014299402be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  animation: {fileID: 0}
 --- !u!137 &13758676
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -3858,9 +3860,9 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: aee7b59560db30047bd8f9e5c2a03dc9, type: 2}
-  - {fileID: 2100000, guid: 2547ff816cb718547afbd01931783ff2, type: 2}
-  - {fileID: 2100000, guid: e4e0f5c0d88733343974bd42d2f8afea, type: 2}
+  - {fileID: 2100000, guid: a78b0c6ddd58d734c86fc56c6e224c7c, type: 2}
+  - {fileID: 2100000, guid: 5a2947b120fd3a1438b3054e3ba6a82e, type: 2}
+  - {fileID: 2100000, guid: 7cf29b91abf763648823680b36e22f4b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1

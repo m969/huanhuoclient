@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _loadMode: 0
-  _controlMode: 1
+  _controlMode: 0
 --- !u!4 &240615013
 Transform:
   m_ObjectHideFlags: 0

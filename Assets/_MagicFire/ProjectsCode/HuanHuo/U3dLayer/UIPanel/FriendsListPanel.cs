@@ -32,7 +32,14 @@ namespace MagicFire.Mmorpg.UI
         string goldxFriendsName = "";
         //显示全部好友只调用一次
         bool fristEnableFriendsPanel = true;
-        //}
+
+        private KBEngine.Avatar _mainAvatar
+        {
+            get
+            {
+                return KBEngine.KBEngineApp.app.player() as KBEngine.Avatar;
+            }
+        }
 
         protected override void Start()
         {
@@ -40,9 +47,9 @@ namespace MagicFire.Mmorpg.UI
             transform.SetParent(SingletonGather.UiManager.CanvasLayerFront.transform);
             _friListItem = AssetTool.LoadAsset_Database_Or_Bundle(
                     AssetTool.Assets__Resources_Ours__UIPanel_ + "Views/FriendsListItem.prefab",
-                    "",
-                    "",
-                    "");
+                    "Prefabs",
+                    "uipanel_bundle",
+                    "FriendsListItem");
 
             transform.localScale = new Vector3(1, 1, 1);
 
@@ -59,19 +66,21 @@ namespace MagicFire.Mmorpg.UI
         private void OnEnable()
         {
             Debug.Log("OnEnable");
-            if (!_hasSub)
+            //if (!_hasSub)
             {
-                //订阅查找好友事件
-                SingletonGather.WorldMediator.MainAvatarView.Model.SubscribeMethodCall("OnFindFriends", OnFindFriends);
-                //订阅显示全部好友事件
-                SingletonGather.WorldMediator.MainAvatarView.Model.SubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
-                _hasSub = true;
+                _mainAvatar.SubscribeMethodCall("OnFindFriends", OnFindFriends);
+                _mainAvatar.SubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
+                ////订阅查找好友事件
+                //SingletonGather.WorldMediator.MainAvatarView.Model.SubscribeMethodCall("OnFindFriends", OnFindFriends);
+                ////订阅显示全部好友事件
+                //SingletonGather.WorldMediator.MainAvatarView.Model.SubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
+                //_hasSub = true;
             }
             //初始化面板时只调用一次显示全部好友
             if (fristEnableFriendsPanel)
             {
                 Debug.Log("first show friends!");
-                var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+                var avatar = _mainAvatar;
                 if (avatar != null)
                     avatar.ShowAllFriends();
                 fristEnableFriendsPanel = false;
@@ -81,14 +90,14 @@ namespace MagicFire.Mmorpg.UI
         private void OnDisable()
         {
             Debug.Log("OnDisable");
-            //SingletonGather.WorldMediator.MainAvatarView.Model.DesubscribeMethodCall("OnFindFriends", OnFindFriends);
-            //SingletonGather.WorldMediator.MainAvatarView.Model.DesubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
+            _mainAvatar.DesubscribeMethodCall("OnFindFriends", OnFindFriends);
+            _mainAvatar.DesubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
         }
 
         //显示所有好友将数据库类型的数据转换为List<object>
         public void OnShowAllFriends(object[] args)
         {
-            object avatarFriendsObject = ((KBEngine.Avatar)SingletonGather.WorldMediator.MainAvatarView.Model).getDefinedProperty("avatarFriends");
+            object avatarFriendsObject = _mainAvatar.getDefinedProperty("avatarFriends");
             Debug.Log(avatarFriendsObject);
             if (avatarFriendsObject == null)
                 return;
@@ -107,9 +116,9 @@ namespace MagicFire.Mmorpg.UI
                 //实例化新条目
                 var item = Instantiate(AssetTool.LoadAsset_Database_Or_Bundle(
                     AssetTool.Assets__Resources_Ours__UIPanel_ + "Views/FriendsListItem.prefab",
-                    "",
-                    "",
-                    ""));
+                    "Prefabs",
+                    "uipanel_bundle",
+                    "FriendsListItem"));
 
                 Debug.Log("item == " + item);
                 if (item != null)
@@ -126,7 +135,7 @@ namespace MagicFire.Mmorpg.UI
         //寻找玩家
         public void FindFriendButton()
         {
-            var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+            var avatar = _mainAvatar;
             if (avatar != null)
                 avatar.FindFriends();
         }
@@ -136,7 +145,7 @@ namespace MagicFire.Mmorpg.UI
         {
             Debug.Log(args[0].ToString());
             string[] argsName = args[0].ToString().Split(' ');
-            var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+            var avatar = _mainAvatar;
             if (_findFriendName.text.Trim().ToString() == avatar.getDefinedProperty("entityName").ToString())
             {
                 Debug.Log("自己不能添加自己为好友");
@@ -181,7 +190,7 @@ namespace MagicFire.Mmorpg.UI
             if(goldxFriendsName != "")
             {
                 Debug.Log("FriendsListPanel: Enter AddFriendsButton()");
-                var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+                var avatar = _mainAvatar;
                 if (avatar != null)
                     avatar.AddFriends(goldxFriendsName);
                 goldxFriendsName = "";
@@ -194,7 +203,7 @@ namespace MagicFire.Mmorpg.UI
             if(FriendsListItem._friName != "")
             {
                 Debug.Log("FriendsListPanel: Enter DeleteFriendsButton()");
-                var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+                var avatar = _mainAvatar;
                 if (avatar != null)
                     avatar.DeleteFriends(FriendsListItem._friName);
                 FriendsListItem._friName = "";

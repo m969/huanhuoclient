@@ -33,6 +33,11 @@ namespace MagicFire.Mmorpg.UI
             if (avatar != null)
             {
                 _avatar = avatar;
+                ShowPanelByName("BagPanel");
+                ShowPanelByName("TheStorePanel");
+                ShowPanelByName("TaskInfoListPanel");
+                ShowPanelByName("FriendsListPanel");
+                ShowPanelByName("CharacterInfoPanel");
                 Subscribe();
             }
             else
@@ -43,9 +48,6 @@ namespace MagicFire.Mmorpg.UI
         public void OnMainAvatarInvalid(KBEngine.Model avatar)
         {
             Debug.Log("GamePanel.OnAvatarInvalid");
-            ShowPanelByName("BagPanel");
-            ShowPanelByName("TheStorePanel");
-            ShowPanelByName("TaskInfoListPanel");
             if (_avatar != null)
                 Desubscribe();
         }

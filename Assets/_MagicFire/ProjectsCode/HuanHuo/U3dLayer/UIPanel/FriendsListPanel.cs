@@ -19,7 +19,6 @@ namespace MagicFire.Mmorpg.UI
         private Transform _friListContent;
 
         private Object _friListItem;
-        //���������ı���
         public Text _findFriendName;        
 
         private string _friendName;
@@ -28,59 +27,49 @@ namespace MagicFire.Mmorpg.UI
         private static int _friId;
         private KBEngine.Model _avatar;
 
-        //{֣���� 
-        //��¼��ѯ����������
-        string goldxFriendsName;
-        //������������ʱֻ����һ����ʾ���к���
+        //{郑晓飞 
+        //用于以后添加好友时使用
+        string goldxFriendsName = "";
+        //显示全部好友只调用一次
         bool fristEnableFriendsPanel = true;
         //}
 
         protected override void Start()
         {
             base.Start();
-            //�������б�������Ϊcanvas����
             transform.SetParent(SingletonGather.UiManager.CanvasLayerFront.transform);
-            //���¼��䲻Ҫɾ
             _friListItem = AssetTool.LoadAsset_Database_Or_Bundle(
                     AssetTool.Assets__Resources_Ours__UIPanel_ + "Views/FriendsListItem.prefab",
                     "",
                     "",
                     "");
 
-            //_friListContent.CreateChildFromPrefab(_friListItem);
-            //_friListContent.GetChild(_friListContent.childCount - 1).transform.GetComponent<FriendsListItem>().friendName = "First";
-            //_friListContent.CreateChildFromPrefab(_friListItem as Transform, "xiaofei");
             transform.localScale = new Vector3(1, 1, 1);
 
-            ///����ϵͳ��λ��
             var rect = GetComponent<RectTransform>();
             rect.anchorMin = new Vector2(1.0f, 0.5f);
             rect.anchorMax = new Vector2(1.0f, 0.5f);
-            //rect.offsetMax = new Vector2(-0, 0);
-            //rect.offsetMin = new Vector2(0, 0);
-            //rect.sizeDelta = new Vector2(195, 193);
             rect.pivot = new Vector2(0.5f, 0.5f);
             rect.anchoredPosition = new Vector2(-97, 0);
             rect.sizeDelta = new Vector2(195, 245);
             
         }
 
-        //����������������ʱ���Զ�����
+        //开启面板时启用
         private void OnEnable()
         {
             Debug.Log("OnEnable");
             if (!_hasSub)
             {
-                //ע���������¼�
+                //订阅查找好友事件
                 SingletonGather.WorldMediator.MainAvatarView.Model.SubscribeMethodCall("OnFindFriends", OnFindFriends);
-                //ע����ʾ�����¼�
+                //订阅显示全部好友事件
                 SingletonGather.WorldMediator.MainAvatarView.Model.SubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
                 _hasSub = true;
             }
-            //ֻ�е�һ����ʾ���к���
+            //初始化面板时只调用一次显示全部好友
             if (fristEnableFriendsPanel)
             {
-                //��������ʱ��ʾȫ������
                 Debug.Log("first show friends!");
                 var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
                 if (avatar != null)
@@ -96,7 +85,7 @@ namespace MagicFire.Mmorpg.UI
             //SingletonGather.WorldMediator.MainAvatarView.Model.DesubscribeMethodCall("OnShowAllFriends", OnShowAllFriends);
         }
 
-        //���ݿ��е���������������������ת��
+        //显示所有好友将数据库类型的数据转换为List<object>
         public void OnShowAllFriends(object[] args)
         {
             object avatarFriendsObject = ((KBEngine.Avatar)SingletonGather.WorldMediator.MainAvatarView.Model).getDefinedProperty("avatarFriends");
@@ -105,16 +94,17 @@ namespace MagicFire.Mmorpg.UI
                 return;
             ShowAllFriends(((Dictionary<string, object>)avatarFriendsObject)["values"] as List<object>);
         }
-        //��ʾ���к���
+
+        //显示全部好友
         public void ShowAllFriends(List<object> friendNameList)
         {            
             Debug.Log("ShowAllFriends: " + friendNameList.Count);
-            //��ʾǰ�����պ����б�
+            //清空面板
             ClearAllFriends();
-            //����args
+            //遍历friendNameList
             foreach (object a in friendNameList)
             {
-                //ʵ����һ��������Ŀ
+                //实例化新条目
                 var item = Instantiate(AssetTool.LoadAsset_Database_Or_Bundle(
                     AssetTool.Assets__Resources_Ours__UIPanel_ + "Views/FriendsListItem.prefab",
                     "",
@@ -122,19 +112,18 @@ namespace MagicFire.Mmorpg.UI
                     ""));
 
                 Debug.Log("item == " + item);
-                //��Ŀ������
                 if (item != null)
                 {
                     item.name = a as string;
-                    //������Ŀ�ĸ��ڵ�
+                    //设置父节点
                     ((GameObject)item).transform.SetParent(_friListContent);
-                    //����Ŀ�µ�friend��ֵ
+                    //显示好有名字
                     ((GameObject)item).GetComponent<FriendsListItem>().friendName = a.ToString();
                 }
             }
         }
 
-        //�ͻ��˲��ҷ����˺����Ƿ�����
+        //寻找玩家
         public void FindFriendButton()
         {
             var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
@@ -142,33 +131,41 @@ namespace MagicFire.Mmorpg.UI
                 avatar.FindFriends();
         }
 
-        //ƥ���Ƿ����ڴ�����
+        //在客户端进行搜索玩家匹配
         public void OnFindFriends(object[] args)
         {
             Debug.Log(args[0].ToString());
-            foreach (object item in args)
+            string[] argsName = args[0].ToString().Split(' ');
+            var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+            if (_findFriendName.text.Trim().ToString() == avatar.getDefinedProperty("entityName").ToString())
             {
-                if (item.ToString() == _findFriendName.text.ToString())
+                Debug.Log("自己不能添加自己为好友");
+                return;
+            }
+            foreach (string item in argsName)
+            {
+                if (item == ("b'"+_findFriendName.text.Trim().ToString()+"'"))
                 {
-                    //����ѯ���ĺ������ּ�¼�����������Ժ�����������
+                    //用于下面添加好友
                     goldxFriendsName = _findFriendName.text.ToString();
-                    //��ʾǰ�����պ����б�
+                    //清除好友面板中所有的好友条目，经搜到的玩家进行显示
                     ClearAllFriends();
                     Debug.Log("clearallfriends ok");
                     if (_friListItem == null)
                     {
                         Debug.LogError("_friListItem is null");
                     }
-                    //ʵ����һ��������Ŀ
+                    //创建新的条目
                     var friendItem = Instantiate(_friListItem) as GameObject;
-                    //������Ŀ�ĸ��ڵ�
+                    //条目不为空怎进行名字显示
                     if (friendItem != null)
                     {
+                        //设置新条目的父节点
                         friendItem.transform.SetParent(_friListContent);
-                        //��Ŀ������
-                        friendItem.name = item as string;
-                        //
-                        friendItem.GetComponent<FriendsListItem>().friendName = item as string;
+                        //给新增的条目名字
+                        friendItem.name = item;
+                        //将friendName给予新增的条目
+                        friendItem.GetComponent<FriendsListItem>().friendName = _findFriendName.text.Trim().ToString();
                     }
                     break;
                 }                                       
@@ -178,34 +175,40 @@ namespace MagicFire.Mmorpg.UI
                 }
             }
         }
-        //���Ӻ���
+        //添加朋友
         public void AddFriendsButton()
         {
-            Debug.Log("FriendsListPanel: Enter AddFriendsButton()");
-            //KBEngine.Event.fireIn("AddFriends",_friendName);
-            var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
-            if (avatar != null)
-                avatar.AddFriends(goldxFriendsName);
-            //(SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar).ShowAllFriends();
+            if(goldxFriendsName != "")
+            {
+                Debug.Log("FriendsListPanel: Enter AddFriendsButton()");
+                var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+                if (avatar != null)
+                    avatar.AddFriends(goldxFriendsName);
+                goldxFriendsName = "";
+            }            
         }
 
-        //ɾ������
+        //删除朋友
         public void DeleteFriendsButton()
         {
-            Debug.Log("FriendsListPanel: Enter DeleteFriendsButton()");
-            //KBEngine.Event.fireIn("DeleteFriends", _friendName);
-            var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
-            if (avatar != null)
-                avatar.DeleteFriends();
+            if(FriendsListItem._friName != "")
+            {
+                Debug.Log("FriendsListPanel: Enter DeleteFriendsButton()");
+                var avatar = SingletonGather.WorldMediator.MainAvatarView.Model as KBEngine.Avatar;
+                if (avatar != null)
+                    avatar.DeleteFriends(FriendsListItem._friName);
+                FriendsListItem._friName = "";
+            }           
         }
 
-        //�رպ����б���ť
+        //关闭面板
         public void CloseFriendsListButton()
         {
             Debug.Log("Enter CloseFriendsListButton()!");
             gameObject.SetActive(false);
         }
-        //���պ���
+
+        //清空面板
         public void ClearAllFriends()
         {
             List<GameObject> childObjects = new List<GameObject>();

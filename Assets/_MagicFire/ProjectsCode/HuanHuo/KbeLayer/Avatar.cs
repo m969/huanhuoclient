@@ -164,10 +164,10 @@ namespace KBEngine
         }
 
         //郑晓飞--删除朋友
-        public void DeleteFriends()
+        public void DeleteFriends(string goldxFriendsName)
         {
             Debug.Log("Avatar:DeleteFriends");
-            cellCall("DeleteFriends");
+            cellCall("DeleteFriends", new object[] { goldxFriendsName });
         } 
          
         //郑晓飞--显示全部好友

@@ -220,15 +220,15 @@ MonoBehaviour:
     m_bundleBuilderEnabledBundleOptions:
       m_values:
       - targetGroup: 0
-        value: 0
+        value: 32
     m_exporterExportOption:
       m_values: []
     m_prefabBuilderReplacePrefabOptions: 0
   - m_name: BundleConfig0
     m_id: bd1d6d24-7cdd-4698-8146-846583a576ba
     m_kind: 6
-    m_x: 255
-    m_y: 88
+    m_x: 254
+    m_y: 87
     m_scriptClassName: 
     m_filter: []
     m_inputPoints:
@@ -488,7 +488,7 @@ MonoBehaviour:
     m_bundleBuilderEnabledBundleOptions:
       m_values:
       - targetGroup: 0
-        value: 0
+        value: 32
     m_exporterExportOption:
       m_values: []
     m_prefabBuilderReplacePrefabOptions: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
     m_bundleBuilderEnabledBundleOptions:
       m_values:
       - targetGroup: 0
-        value: 0
+        value: 32
     m_exporterExportOption:
       m_values: []
     m_prefabBuilderReplacePrefabOptions: 0
@@ -1094,7 +1094,7 @@ MonoBehaviour:
     m_bundleBuilderEnabledBundleOptions:
       m_values:
       - targetGroup: 0
-        value: 0
+        value: 32
     m_exporterExportOption:
       m_values: []
     m_prefabBuilderReplacePrefabOptions: 0
@@ -1271,5 +1271,5 @@ MonoBehaviour:
     m_toNodeId: cb6ebb6e-3787-40a5-a83d-1b959ac93a6f
     m_toNodeConnectionPoiontId: 48d38e73-d14e-4712-9468-64625ff18dd2
     m_label: +
-  m_lastModified: 131438775297486275
+  m_lastModified: 131438944033032568
   m_version: 1

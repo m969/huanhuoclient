@@ -121,6 +121,7 @@
                 {
                     tempItem.transform.SetParent(_content);
                     tempItem.GetComponent<StoreItem>().goodsID = (int)goodsId;
+                    tempItem.GetComponent<StoreItem>().parentPanel = this;
                     RectTransform itemObjectRectTrans = tempItem.transform.Find("Object").GetComponent<RectTransform>();
                     itemObjectRectTrans.anchorMin = new Vector2(0.0f, 0.0f);
                     itemObjectRectTrans.anchorMax = new Vector2(1, 1);

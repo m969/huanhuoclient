@@ -194,7 +194,7 @@ namespace MagicFire.Mmorpg
                 return;
             }
 
-            var gamePanel = SingletonGather.UiManager.TryGetOrCreatePanel("GamePanel").GetComponent<GamePanel>();
+            var gamePanel = SingletonGather.UiManager.TryGetOrCreatePanel("GamePanel_").GetComponent<GamePanel>();
             if (gamePanel != null)
                 gamePanel.OnMainAvatarActive(avatar);
 

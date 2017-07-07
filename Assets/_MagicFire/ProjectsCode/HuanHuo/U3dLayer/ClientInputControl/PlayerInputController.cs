@@ -201,7 +201,7 @@ public class PlayerInputController : MonoBehaviour
 
     public void DoStore(NpcView npc)
     {
-        var storePanel = UiManager.instance.TryGetOrCreatePanel("TheStorePanel");
+        var storePanel = UiManager.instance.TryGetOrCreatePanel("TheStorePanel_");
         if (storePanel == null)
         {
             return;

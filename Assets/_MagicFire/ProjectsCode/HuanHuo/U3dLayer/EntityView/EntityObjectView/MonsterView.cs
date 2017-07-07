@@ -27,6 +27,7 @@ namespace MagicFire.Mmorpg
             Model.SubscribeMethodCall("StopMove",StopMove);
             Model.SubscribeMethodCall("Attack_01", Attack_01);
             Model.SubscribeMethodCall("Attack_02", Attack_02);
+            //Model.SubscribeMethodCall("")
         }
 
         public override void OnDie(object[] args)
@@ -38,7 +39,8 @@ namespace MagicFire.Mmorpg
         {
 
         }
-
+        
+        //开始移动，播放移动动画
         public void StartMove(object[] var)
         {
             if (animation != null)
@@ -63,6 +65,7 @@ namespace MagicFire.Mmorpg
 
         }
 
+        //播放停止移动动画
         public void StopMove(object[] var)
         {
             if (animation != null)
@@ -85,6 +88,7 @@ namespace MagicFire.Mmorpg
                 }
             }
         }
+        //第一种攻击方式
         public void Attack_01(object[] var)
         {
             if (animation != null)
@@ -107,6 +111,8 @@ namespace MagicFire.Mmorpg
                 }
             }
         }
+
+        //第二种攻击方式
         public void Attack_02(object[] var)
         {
             if (animation != null)
@@ -129,6 +135,8 @@ namespace MagicFire.Mmorpg
                 }
             }
         }
+
+        //播放死亡动画
         public void Die(object var)
         {
             if (animation != null)

@@ -25,6 +25,11 @@ namespace MagicFire.Mmorpg.UI
         {
             base.Start();
             StretchLayout();
+            ShowPanelByName("BagPanel");
+            ShowPanelByName("TheStorePanel");
+            ShowPanelByName("TaskInfoListPanel");
+            ShowPanelByName("FriendsListPanel");
+            ShowPanelByName("CharacterInfoPanel");
         }
 
         //当主玩家激活
@@ -33,11 +38,6 @@ namespace MagicFire.Mmorpg.UI
             if (avatar != null)
             {
                 _avatar = avatar;
-                ShowPanelByName("BagPanel");
-                ShowPanelByName("TheStorePanel");
-                ShowPanelByName("TaskInfoListPanel");
-                ShowPanelByName("FriendsListPanel");
-                ShowPanelByName("CharacterInfoPanel");
                 Subscribe();
             }
             else

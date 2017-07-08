@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 11423560}
   - component: {fileID: 11433382}
   m_Layer: 5
-  m_Name: StorePanel
+  m_Name: TheStorePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

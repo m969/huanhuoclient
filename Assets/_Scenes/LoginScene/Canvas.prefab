@@ -99,7 +99,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &116664
 GameObject:
   m_ObjectHideFlags: 1
@@ -565,7 +565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &186582
 GameObject:
   m_ObjectHideFlags: 1
@@ -583,7 +583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &187886
 GameObject:
   m_ObjectHideFlags: 1
@@ -945,11 +945,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: 127.0.0.1
+    - m_Text: "\u670D\u52A1\u5668\u5217\u8868\uFF08\u9ED8\u8BA4\u672C\u5730\uFF09"
       m_Image: {fileID: 0}
-    - m_Text: 47.94.18.88
+    - m_Text: "\u8FDC\u7A0B\u670D\u52A1\u5668\uFF0847.94.18.88\uFF09"
       m_Image: {fileID: 0}
-    - m_Text: 0.0.0.0
+    - m_Text: "\u672C\u5730\u670D\u52A1\u5668\uFF08127.0.0.1\uFF09"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2126,7 +2126,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 127.0.0.1
+  m_Text: "\u670D\u52A1\u5668\u5217\u8868\uFF08\u9ED8\u8BA4\u672C\u5730\uFF09"
 --- !u!114 &11494354
 MonoBehaviour:
   m_ObjectHideFlags: 1

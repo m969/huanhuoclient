@@ -68,7 +68,7 @@ namespace MagicFire.Common.Plugin
             {
                 if (XmlSceneManager.Instance.LoadMode == XmlSceneManager.LoadModeEnum.Database)
                 {
-                    asset = UnityEditor.AssetDatabase.LoadAssetAtPath<Object>(assetDatabasePath);
+                    //asset = UnityEditor.AssetDatabase.LoadAssetAtPath<Object>(assetDatabasePath);
                     if (asset == null)
                         Debug.LogError(assetDatabasePath + " is null!");
                     return asset;

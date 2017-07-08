@@ -76,15 +76,15 @@ namespace MagicFire.Mmorpg.UI
         {
             if (_tempId == 0)
             {
-                _content.FindChild(_selectItemID.ToString() + "(Clone)").transform.Find("Image2").gameObject.SetActive(true);
+                _content.Find(_selectItemID.ToString() + "(Clone)").transform.Find("Image2").gameObject.SetActive(true);
             }
             if (_tempId != 0)
             {
                 if (_tempId != _selectItemID)
                 {
                     //Debug.Log(_selectItemID.ToString() + "(Clone)");
-                    _content.FindChild(_selectItemID.ToString() + "(Clone)").transform.Find("Image2").gameObject.SetActive(true);
-                    _content.FindChild(_tempId.ToString() + "(Clone)").transform.Find("Image2").gameObject.SetActive(false);
+                    _content.Find(_selectItemID.ToString() + "(Clone)").transform.Find("Image2").gameObject.SetActive(true);
+                    _content.Find(_tempId.ToString() + "(Clone)").transform.Find("Image2").gameObject.SetActive(false);
                 }
             }
            

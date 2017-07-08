@@ -25,7 +25,7 @@
             }
             else
             {
-                _messageText = transform.FindChild("MessageText").GetComponent<Text>();
+                _messageText = transform.Find("MessageText").GetComponent<Text>();
                 _messageText.text = message;
             }
         }

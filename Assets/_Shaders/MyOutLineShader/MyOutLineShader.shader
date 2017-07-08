@@ -1,4 +1,6 @@
-﻿Shader "Unlit/MyOutLineShader"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Unlit/MyOutLineShader"
 {
 	Properties
 	{
@@ -50,7 +52,7 @@
 				};
 				o.vertex = v.vertex;
 				o.vertex = mul(m, o.vertex);
-				o.vertex = mul(UNITY_MATRIX_MVP, o.vertex);
+				o.vertex = UnityObjectToClipPos(o.vertex);
 				//o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
 				//UNITY_TRANSFER_FOG(o,o.vertex);
 				return o;

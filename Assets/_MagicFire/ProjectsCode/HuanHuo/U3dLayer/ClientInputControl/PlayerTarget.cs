@@ -27,7 +27,7 @@
         // Use this for initialization
         private void Start()
         {
-            _camera = transform.FindChild("Main Camera").gameObject;
+            _camera = transform.Find("Main Camera").gameObject;
             tag = "DontDestroy";
             _hasDown = false;
         }

@@ -23,7 +23,7 @@
         {
             //KBEngine.Event.fireIn("RequestBuyGoods", new object[] { goodsID });
             parentPanel.SetChildSelect(goodsID);
-            SingletonGather.UiManager.TryGetOrCreatePanel("TheStorePanel_").GetComponent<StorePanel>().ChangeColor();
+            SingletonGather.UiManager.TryGetOrCreatePanel("StorePanel").GetComponent<StorePanel>().ChangeColor();
         }
     }
 

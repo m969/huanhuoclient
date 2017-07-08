@@ -69,7 +69,7 @@
         {
             get
             {
-                var layerFront = Canvas.transform.FindChild("LayerFront");
+                var layerFront = Canvas.transform.Find("LayerFront");
                 if (layerFront)
                 {
                     return layerFront.gameObject;
@@ -87,7 +87,7 @@
         {
             get
             {
-                var layerBack = Canvas.transform.FindChild("LayerBack");
+                var layerBack = Canvas.transform.Find("LayerBack");
                 if (layerBack)
                 {
                     return layerBack.gameObject;
@@ -110,7 +110,7 @@
             {
                 get
                 {
-                    var layer = instance.Canvas.transform.FindChild("Layer" + index);
+                    var layer = instance.Canvas.transform.Find("Layer" + index);
                     if (layer)
                     {
                         return layer.gameObject;

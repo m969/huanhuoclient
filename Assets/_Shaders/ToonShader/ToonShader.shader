@@ -1,4 +1,6 @@
-﻿Shader "Custom/ToonShader"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/ToonShader"
 {
 	Properties
 	{
@@ -31,7 +33,7 @@
 			v2f vert (appdata_full v)
 			{
 				v2f o;
-				o.pos=mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos=UnityObjectToClipPos(v.vertex);
 				float3 dir = normalize(v.vertex.xyz);
 				float3 dir2 = v.normal;
 				float D = dot(dir, dir2);
@@ -68,7 +70,7 @@
 			v2f vert(appdata_full v)
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				float3 dir = normalize(v.vertex.xyz);
 				float3 dir2 = v.normal;
 				float D = dot(dir, dir2);
@@ -116,7 +118,7 @@
 			v2f vert (appdata_full v)
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				//为了能让Z检测正常进行，需要进行和Cull Back的Pass同样的顶点挤出操作
 				float3 dir = normalize(v.vertex.xyz);
 				float3 dir2 = v.normal;
@@ -173,7 +175,7 @@
 			};
 			v2f vert(appdata_full v){
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.normal = v.normal;
 				o.viewDir = ObjSpaceViewDir(v.vertex);
 				o.lightDir = _WorldSpaceLightPos0 - v.vertex;

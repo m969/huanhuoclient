@@ -25,11 +25,11 @@ namespace MagicFire.Mmorpg.UI
         {
             base.Start();
             StretchLayout();
-            ShowPanelByName("BagPanel_");
-            ShowPanelByName("TheStorePanel_");
+            ShowPanelByName("BagPanel");
+            ShowPanelByName("StorePanel");
             ShowPanelByName("TaskInfoListPanel");
             ShowPanelByName("FriendsListPanel");
-            ShowPanelByName("CharacterInfoPanel_");
+            ShowPanelByName("CharacterInfoPanel");
         }
 
         //当主玩家激活

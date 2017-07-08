@@ -120,7 +120,7 @@ namespace MagicFire.Mmorpg
             int eid, 
             Account accountEntity)
         {
-            SingletonGather.UiManager.CanvasLayerFront.transform.FindChild("LoginPanel").gameObject.SetActive(false);
+            SingletonGather.UiManager.CanvasLayerFront.transform.Find("LoginPanel").gameObject.SetActive(false);
             SingletonGather.UiManager.TryGetOrCreatePanel("SceneLoadPanel");
         }
 
@@ -194,7 +194,7 @@ namespace MagicFire.Mmorpg
                 return;
             }
 
-            var gamePanel = SingletonGather.UiManager.TryGetOrCreatePanel("GamePanel_").GetComponent<GamePanel>();
+            var gamePanel = SingletonGather.UiManager.TryGetOrCreatePanel("GamePanel").GetComponent<GamePanel>();
             if (gamePanel != null)
                 gamePanel.OnMainAvatarActive(avatar);
 

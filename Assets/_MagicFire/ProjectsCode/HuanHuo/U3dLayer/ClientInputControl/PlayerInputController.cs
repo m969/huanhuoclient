@@ -195,7 +195,7 @@ public class PlayerInputController : MonoBehaviour
         {
             messageBox.transform.SetParent(UiManager.instance.Canvas.transform);
             messageBox.transform.localPosition = new Vector3(0, 0, 0);
-            messageBox.transform.FindChild("MessageText").GetComponent<Text>().text = result == true ? "购买成功" : "购买失败";
+            messageBox.transform.Find("MessageText").GetComponent<Text>().text = result == true ? "购买成功" : "购买失败";
         }
     }
 

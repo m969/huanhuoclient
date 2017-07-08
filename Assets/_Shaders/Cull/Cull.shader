@@ -1,4 +1,6 @@
-﻿Shader "Custom/Cull" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/Cull" {
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
@@ -25,7 +27,7 @@
 			v2f o;
 			o.pos=v.vertex;
 			o.pos.xyz+=v.normal*0.03;
-			o.pos=mul(UNITY_MATRIX_MVP,o.pos);
+			o.pos=UnityObjectToClipPos(o.pos);
 			return o;
 		}
 
@@ -67,7 +69,7 @@
 			v2f vert (appdata v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 				UNITY_TRANSFER_FOG(o,o.vertex);
 				return o;

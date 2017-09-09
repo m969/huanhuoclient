@@ -26,7 +26,7 @@ namespace MagicFire.Mmorpg.UI
             base.Start();
             StretchLayout();
             ShowPanelByName("BagPanel");
-            ShowPanelByName("StorePanel");
+            ShowPanelByName("TheStorePanel");
             ShowPanelByName("TaskInfoListPanel");
             ShowPanelByName("FriendsListPanel");
             ShowPanelByName("CharacterInfoPanel");
